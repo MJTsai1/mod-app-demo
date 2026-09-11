@@ -1,6 +1,7 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { Footer } from "@/components/Footer";
+import { BeforeAfterSection } from "@/components/sections/BeforeAfterSection";
 import { FeatureShowcase } from "@/components/sections/FeatureShowcase";
 import { AnalyticsSection } from "@/components/sections/AnalyticsSection";
 import { DashboardShowcase } from "@/components/sections/DashboardShowcase";
@@ -17,6 +18,7 @@ export default function Home() {
       <Nav />
       <main className="flex-1">
         <Hero />
+        <BeforeAfterSection />
         <FeatureShowcase />
         <AnalyticsSection />
         <DashboardShowcase />

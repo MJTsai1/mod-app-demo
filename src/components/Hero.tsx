@@ -30,6 +30,18 @@ export function Hero() {
               See the Dashboard
             </a>
           </div>
+
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-xs text-[var(--color-text-subtle)]">
+            <span className="font-medium uppercase tracking-wide">Built for</span>
+            {siteConfig.supportedCommunities.map((community) => (
+              <span
+                key={community}
+                className="rounded-full border border-[var(--color-border-strong)] px-3 py-1 text-[var(--color-text-muted)]"
+              >
+                {community}
+              </span>
+            ))}
+          </div>
         </div>
 
         <div className="relative mx-auto mt-16 max-w-4xl">
