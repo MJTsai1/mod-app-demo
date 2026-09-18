@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { SectionHeading, BrowserFrame, DemoDataNote, Reveal } from "@/components/ui";
+import { Sandbox } from "@/components/Sandbox";
 import {
-  ApplicationDetailMockup,
   ReportsMockup,
   AppealsMockup,
   StaffMockup,
@@ -12,7 +12,7 @@ import {
 } from "@/components/mockups";
 
 const tabs = [
-  { id: "applications", label: "Applications", frameTitle: "guilddesk.app/admin/dashboard/APP-2477", node: <ApplicationDetailMockup /> },
+  { id: "applications", label: "Applications", frameTitle: "guilddesk.app/admin/dashboard", node: <Sandbox /> },
   { id: "reports", label: "Reports", frameTitle: "guilddesk.app/admin/reports", node: <ReportsMockup /> },
   { id: "appeals", label: "Appeals", frameTitle: "guilddesk.app/admin/appeals", node: <AppealsMockup /> },
   { id: "staff", label: "Staff", frameTitle: "guilddesk.app/admin/staff", node: <StaffMockup /> },
@@ -31,7 +31,7 @@ export function DashboardShowcase() {
           <SectionHeading
             eyebrow="The dashboard"
             title="What your staff actually see"
-            description="A single, consistent interface for every part of the workflow — applications, reports, appeals, staff, and analytics."
+            description="A single, consistent interface for every part of the workflow. The Applications tab below is live — click an applicant, claim the case, and try approving or denying it."
           />
         </Reveal>
 

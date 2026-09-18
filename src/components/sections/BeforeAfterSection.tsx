@@ -1,9 +1,9 @@
 import { SectionHeading, Reveal } from "@/components/ui";
 
 const before = [
-  "Applications sitting in a Google Form nobody checks regularly",
-  "Reports buried in a #mod-reports channel, scrolling forever to find one",
-  "Ban appeals handled over DMs with no record of what was decided",
+  "Applications sitting in a Google Form or spreadsheet nobody checks regularly",
+  "Reports buried in a #mod-reports Discord channel, scrolling forever to find one",
+  "Ban appeals handled over Discord DMs with no record of what was decided",
   "No way to tell who's actually reviewing what",
   "Re-explaining the same case to a teammate because nothing's written down",
 ];
@@ -22,9 +22,9 @@ export function BeforeAfterSection() {
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <SectionHeading
-            eyebrow="The problem"
-            title="Most staff teams manage this with channels and spreadsheets"
-            description="It works, until it doesn't. Here's what usually changes once a community moves to a dedicated dashboard."
+            eyebrow="Why not just use Discord and spreadsheets?"
+            title="Because it stops working the moment your team grows"
+            description="Discord channels and spreadsheets are free, and they work for a while. Here's what usually changes once a community moves to a dedicated dashboard."
           />
         </Reveal>
 
