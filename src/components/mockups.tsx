@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import {
   mockApplications,
   mockReports,
@@ -10,31 +13,32 @@ import {
 import { StatusPill } from "@/components/ui";
 
 export function ApplicationsMockup() {
+  const t = useTranslations("sandbox");
   return (
     <div className="overflow-x-auto">
-      <table className="w-full min-w-[560px] text-left text-sm">
+      <table className="w-full min-w-[560px] text-start text-sm">
         <thead className="text-xs uppercase tracking-wide text-[var(--color-text-subtle)]">
           <tr className="border-b border-[var(--color-border)]">
-            <th className="py-2 pr-4 font-medium">Applicant</th>
-            <th className="py-2 pr-4 font-medium">Status</th>
-            <th className="py-2 pr-4 font-medium">Claimed by</th>
-            <th className="py-2 pr-4 font-medium">Submitted</th>
+            <th className="py-2 pe-4 font-medium">{t("applicant")}</th>
+            <th className="py-2 pe-4 font-medium">{t("status")}</th>
+            <th className="py-2 pe-4 font-medium">{t("claimedBy")}</th>
+            <th className="py-2 pe-4 font-medium">{t("submitted")}</th>
           </tr>
         </thead>
         <tbody>
           {mockApplications.map((app) => (
             <tr key={app.id} className="border-b border-[var(--color-border)] last:border-0">
-              <td className="py-3 pr-4">
+              <td className="py-3 pe-4">
                 <div className="font-medium text-[var(--color-text)]">{app.applicant}</div>
                 <div className="font-mono text-xs text-[var(--color-text-subtle)]">{app.id}</div>
               </td>
-              <td className="py-3 pr-4">
+              <td className="py-3 pe-4">
                 <StatusPill status={app.status} />
               </td>
-              <td className="py-3 pr-4 text-[var(--color-text-muted)]">
-                {app.claimedBy ?? <span className="text-[var(--color-text-subtle)]">Unclaimed</span>}
+              <td className="py-3 pe-4 text-[var(--color-text-muted)]">
+                {app.claimedBy ?? <span className="text-[var(--color-text-subtle)]">{t("unclaimed")}</span>}
               </td>
-              <td className="py-3 pr-4 text-[var(--color-text-subtle)]">{app.submitted}</td>
+              <td className="py-3 pe-4 text-[var(--color-text-subtle)]">{app.submitted}</td>
             </tr>
           ))}
         </tbody>
@@ -43,53 +47,13 @@ export function ApplicationsMockup() {
   );
 }
 
-export function ApplicationDetailMockup() {
-  const app = mockApplications[1];
-  return (
-    <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <div>
-          <p className="text-lg font-semibold text-[var(--color-text)]">{app.applicant}</p>
-          <p className="font-mono text-xs text-[var(--color-text-subtle)]">{app.id}</p>
-        </div>
-        <StatusPill status={app.status} />
-      </div>
-      <div className="grid grid-cols-3 gap-4 rounded-xl border border-[var(--color-border)] p-4 text-sm">
-        <div>
-          <p className="text-xs text-[var(--color-text-subtle)]">Age</p>
-          <p className="text-[var(--color-text)]">{app.age}</p>
-        </div>
-        <div>
-          <p className="text-xs text-[var(--color-text-subtle)]">Timezone</p>
-          <p className="text-[var(--color-text)]">{app.timezone}</p>
-        </div>
-        <div>
-          <p className="text-xs text-[var(--color-text-subtle)]">Weekly hours</p>
-          <p className="text-[var(--color-text)]">{app.weeklyHours}</p>
-        </div>
-      </div>
-      <div>
-        <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-[var(--color-text-subtle)]">
-          Previous experience
-        </p>
-        <p className="text-sm text-[var(--color-text-muted)]">{app.experience}</p>
-      </div>
-      <div className="flex gap-2">
-        <button type="button" disabled className="btn btn-primary cursor-default text-sm opacity-90">
-          Approve
-        </button>
-        <button type="button" disabled className="btn btn-secondary cursor-default text-sm opacity-90">
-          Deny
-        </button>
-        <button type="button" disabled className="btn btn-secondary cursor-default text-sm opacity-90">
-          Request info
-        </button>
-      </div>
-    </div>
-  );
-}
-
 export function ReportsMockup() {
+  const t = useTranslations("mockups");
+  const PRIORITY_KEYS: Record<string, "priorityHigh" | "priorityMedium" | "priorityLow"> = {
+    High: "priorityHigh",
+    Medium: "priorityMedium",
+    Low: "priorityLow",
+  };
   return (
     <div className="space-y-3">
       {mockReports.map((report) => (
@@ -108,16 +72,16 @@ export function ReportsMockup() {
                   color: report.priority === "High" ? "var(--color-danger)" : "var(--color-text-muted)",
                 }}
               >
-                {report.priority} priority
+                {t(PRIORITY_KEYS[report.priority])}
               </span>
             </div>
             <p className="mt-1 text-sm font-medium text-[var(--color-text)]">
-              Reported: {report.reportedUser} <span className="text-[var(--color-text-subtle)]">· {report.category}</span>
+              {t("reportedPrefix")} {report.reportedUser} <span className="text-[var(--color-text-subtle)]">· {report.category}</span>
             </p>
             <p className="text-xs text-[var(--color-text-muted)]">{report.summary}</p>
           </div>
-          <div className="text-left text-xs text-[var(--color-text-subtle)] sm:text-right">
-            <p>{report.assignedTo ?? "Unassigned"}</p>
+          <div className="text-start text-xs text-[var(--color-text-subtle)] sm:text-end">
+            <p>{report.assignedTo ?? t("unassigned")}</p>
             <p>{report.submitted}</p>
           </div>
         </div>
@@ -127,30 +91,32 @@ export function ReportsMockup() {
 }
 
 export function AppealsMockup() {
+  const t = useTranslations("mockups");
+  const tSandbox = useTranslations("sandbox");
   return (
     <div className="overflow-x-auto">
-      <table className="w-full min-w-[560px] text-left text-sm">
+      <table className="w-full min-w-[560px] text-start text-sm">
         <thead className="text-xs uppercase tracking-wide text-[var(--color-text-subtle)]">
           <tr className="border-b border-[var(--color-border)]">
-            <th className="py-2 pr-4 font-medium">Appellant</th>
-            <th className="py-2 pr-4 font-medium">Original ban reason</th>
-            <th className="py-2 pr-4 font-medium">Status</th>
-            <th className="py-2 pr-4 font-medium">Reviewer</th>
+            <th className="py-2 pe-4 font-medium">{t("appellant")}</th>
+            <th className="py-2 pe-4 font-medium">{t("originalBanReason")}</th>
+            <th className="py-2 pe-4 font-medium">{tSandbox("status")}</th>
+            <th className="py-2 pe-4 font-medium">{t("reviewer")}</th>
           </tr>
         </thead>
         <tbody>
           {mockAppeals.map((appeal) => (
             <tr key={appeal.id} className="border-b border-[var(--color-border)] last:border-0">
-              <td className="py-3 pr-4">
+              <td className="py-3 pe-4">
                 <div className="font-medium text-[var(--color-text)]">{appeal.appellant}</div>
                 <div className="font-mono text-xs text-[var(--color-text-subtle)]">{appeal.id}</div>
               </td>
-              <td className="py-3 pr-4 text-[var(--color-text-muted)]">{appeal.banReason}</td>
-              <td className="py-3 pr-4">
+              <td className="py-3 pe-4 text-[var(--color-text-muted)]">{appeal.banReason}</td>
+              <td className="py-3 pe-4">
                 <StatusPill status={appeal.status} />
               </td>
-              <td className="py-3 pr-4 text-[var(--color-text-subtle)]">
-                {appeal.reviewer ?? "Unassigned"}
+              <td className="py-3 pe-4 text-[var(--color-text-subtle)]">
+                {appeal.reviewer ?? t("unassigned")}
               </td>
             </tr>
           ))}
@@ -161,6 +127,7 @@ export function AppealsMockup() {
 }
 
 export function StaffMockup() {
+  const t = useTranslations("mockups");
   return (
     <div className="space-y-3">
       {mockStaff.map((staff) => (
@@ -179,15 +146,15 @@ export function StaffMockup() {
           </div>
           <div className="flex gap-6 text-xs text-[var(--color-text-muted)]">
             <div>
-              <p className="text-[var(--color-text-subtle)]">Claimed</p>
+              <p className="text-[var(--color-text-subtle)]">{t("claimedCount")}</p>
               <p className="font-medium text-[var(--color-text)]">{staff.claimed}</p>
             </div>
             <div>
-              <p className="text-[var(--color-text-subtle)]">Resolved (7d)</p>
+              <p className="text-[var(--color-text-subtle)]">{t("resolved7d")}</p>
               <p className="font-medium text-[var(--color-text)]">{staff.resolvedThisWeek}</p>
             </div>
             <div>
-              <p className="text-[var(--color-text-subtle)]">Last active</p>
+              <p className="text-[var(--color-text-subtle)]">{t("lastActive")}</p>
               <p className="font-medium text-[var(--color-text)]">{staff.lastActive}</p>
             </div>
           </div>
@@ -213,15 +180,20 @@ export function ActivityMockup() {
 }
 
 export function AnalyticsMockup() {
+  const t = useTranslations("analytics");
+  const tStatus = useTranslations("status");
+
+  const stats = [
+    { label: t("pendingApplications"), value: mockStats.pendingApplications },
+    { label: t("openReports"), value: mockStats.openReports },
+    { label: t("openAppeals"), value: mockStats.openAppeals },
+    { label: t("activeStaff"), value: mockStats.activeStaff },
+  ];
+
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {[
-          { label: "Pending applications", value: mockStats.pendingApplications },
-          { label: "Open reports", value: mockStats.openReports },
-          { label: "Open appeals", value: mockStats.openAppeals },
-          { label: "Active staff", value: mockStats.activeStaff },
-        ].map((stat) => (
+        {stats.map((stat) => (
           <div key={stat.label} className="rounded-xl border border-[var(--color-border)] p-4">
             <p className="text-2xl font-bold text-[var(--color-text)]">{stat.value}</p>
             <p className="mt-1 text-xs text-[var(--color-text-subtle)]">{stat.label}</p>
@@ -231,14 +203,14 @@ export function AnalyticsMockup() {
 
       <div>
         <div className="mb-3 flex items-baseline justify-between">
-          <p className="text-sm font-semibold text-[var(--color-text)]">Application status breakdown</p>
-          <span className="text-xs text-[var(--color-text-subtle)]">Last 30 days</span>
+          <p className="text-sm font-semibold text-[var(--color-text)]">{t("statusBreakdown")}</p>
+          <span className="text-xs text-[var(--color-text-subtle)]">{t("last30Days")}</span>
         </div>
         <div className="space-y-3">
           {mockStatusBreakdown.map((row) => (
-            <div key={row.label}>
+            <div key={row.status}>
               <div className="mb-1 flex items-center justify-between text-xs">
-                <span className="text-[var(--color-text-muted)]">{row.label}</span>
+                <span className="text-[var(--color-text-muted)]">{tStatus(row.status)}</span>
                 <span className="text-[var(--color-text-subtle)]">
                   {row.value} ({row.percent}%)
                 </span>
@@ -257,15 +229,15 @@ export function AnalyticsMockup() {
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         <div className="rounded-xl border border-[var(--color-border)] p-4">
           <p className="text-lg font-bold text-[var(--color-text)]">{mockStats.applicationsProcessed30d}</p>
-          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">Applications processed (30d)</p>
+          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">{t("applicationsProcessed30d")}</p>
         </div>
         <div className="rounded-xl border border-[var(--color-border)] p-4">
           <p className="text-lg font-bold text-[var(--color-text)]">{mockStats.reportsResolved30d}</p>
-          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">Reports resolved (30d)</p>
+          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">{t("reportsResolved30d")}</p>
         </div>
         <div className="rounded-xl border border-[var(--color-border)] p-4">
           <p className="text-lg font-bold text-[var(--color-text)]">{mockStats.avgResolutionTime}</p>
-          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">Avg. resolution time</p>
+          <p className="mt-1 text-xs text-[var(--color-text-subtle)]">{t("avgResolutionTime")}</p>
         </div>
       </div>
     </div>

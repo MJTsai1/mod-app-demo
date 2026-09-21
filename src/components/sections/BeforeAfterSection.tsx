@@ -1,30 +1,19 @@
+import { getTranslations } from "next-intl/server";
 import { SectionHeading, Reveal } from "@/components/ui";
 
-const before = [
-  "Applications sitting in a Google Form or spreadsheet nobody checks regularly",
-  "Reports buried in a #mod-reports Discord channel, scrolling forever to find one",
-  "Ban appeals handled over Discord DMs with no record of what was decided",
-  "No way to tell who's actually reviewing what",
-  "Re-explaining the same case to a teammate because nothing's written down",
-];
+export async function BeforeAfterSection() {
+  const t = await getTranslations("beforeAfter");
+  const before = t.raw("before") as string[];
+  const after = t.raw("after") as string[];
 
-const after = [
-  "Every application in one queue, sorted by status",
-  "Reports tracked with a category, priority, and assigned staff member",
-  "Appeals reviewed with a clear decision and reviewer on record",
-  "Claim a case so staff don't duplicate work",
-  "A full activity history on every case, staff-visible at a glance",
-];
-
-export function BeforeAfterSection() {
   return (
     <section className="px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <SectionHeading
-            eyebrow="Why not just use Discord and spreadsheets?"
-            title="Because it stops working the moment your team grows"
-            description="Discord channels and spreadsheets are free, and they work for a while. Here's what usually changes once a community moves to a dedicated dashboard."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
           />
         </Reveal>
 
@@ -35,7 +24,7 @@ export function BeforeAfterSection() {
                 className="badge mb-4 w-fit"
                 style={{ background: "var(--color-danger-bg)", color: "var(--color-danger)" }}
               >
-                Before
+                {t("beforeLabel")}
               </span>
               <ul className="space-y-3">
                 {before.map((item) => (
@@ -54,7 +43,7 @@ export function BeforeAfterSection() {
                 className="badge mb-4 w-fit"
                 style={{ background: "var(--color-success-bg)", color: "var(--color-success)" }}
               >
-                After
+                {t("afterLabel")}
               </span>
               <ul className="space-y-3">
                 {after.map((item) => (

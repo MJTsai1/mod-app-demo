@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Gestione della community Discord, semplificata.",
+    "description": "GuildDesk è una piattaforma di gestione per community Discord per candidature, segnalazioni, ricorsi e attività dello staff — pensata per community di gaming, roleplay e creator."
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "dashboard": "Dashboard",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "requestDemo": "Richiedi una demo",
+    "getInTouch": "Contattaci",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "primary": "Principale",
+    "primaryMobile": "Principale mobile"
+  },
+  "hero": {
+    "badge": "Ora in fase di onboarding per community pilota",
+    "titlePrefix": "Gestione della community",
+    "titleHighlight": "Discord",
+    "titleSuffix": ", semplificata.",
+    "subTagline": "Gestisci candidature, segnalazioni, ricorsi e attività dello staff da un'unica potente dashboard.",
+    "requestDemo": "Richiedi una demo",
+    "seeDashboard": "Guarda la dashboard",
+    "builtFor": "Pensata per",
+    "communities": [
+      "Community Roblox",
+      "Community ERLC",
+      "Community FiveM",
+      "Community Minecraft",
+      "Community di gaming",
+      "Community di creator"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Perché non usare semplicemente Discord e fogli di calcolo?",
+    "title": "Perché smette di funzionare non appena il team cresce",
+    "description": "I canali Discord e i fogli di calcolo sono gratuiti e funzionano per un po'. Ecco cosa cambia di solito quando una community passa a una dashboard dedicata.",
+    "beforeLabel": "Prima",
+    "before": [
+      "Candidature ferme in un Google Form o un foglio di calcolo che nessuno controlla regolarmente",
+      "Segnalazioni sepolte in un canale Discord #mod-reports, con scroll infinito per trovarne una",
+      "Ricorsi contro i ban gestiti via DM su Discord, senza alcuna traccia della decisione presa",
+      "Nessun modo per sapere chi sta effettivamente esaminando cosa",
+      "Dover rispiegare lo stesso caso a un collega perché non è scritto da nessuna parte"
+    ],
+    "afterLabel": "Dopo",
+    "after": [
+      "Ogni candidatura in un'unica coda, ordinata per stato",
+      "Segnalazioni tracciate con categoria, priorità e membro dello staff assegnato",
+      "Ricorsi esaminati con una decisione chiara e il revisore registrato",
+      "Prendere in carico un caso così lo staff non duplica il lavoro",
+      "Una cronologia attività completa su ogni caso, visibile allo staff a colpo d'occhio"
+    ]
+  },
+  "features": {
+    "eyebrow": "Cosa fa",
+    "title": "Tutto ciò di cui il tuo staff ha bisogno, in un unico posto",
+    "description": "Un'unica dashboard per le quattro cose che di solito sono sparse tra canali Discord, DM e fogli di calcolo.",
+    "recentActivity": "Attività recente",
+    "applications": {
+      "eyebrow": "Candidature",
+      "title": "Gestione delle candidature, senza il foglio di calcolo",
+      "description": "I membri si candidano tramite un modulo guidato e lo staff esamina tutto da un'unica coda — niente più ricerche tra un Google Form e un foglio di calcolo separato.",
+      "bullets": [
+        "Candidature in sospeso con le informazioni del candidato a colpo d'occhio",
+        "Domande di candidatura personalizzate per ogni community",
+        "Prendi in carico una candidatura così lo staff non duplica la revisione",
+        "Approva, rifiuta o richiedi maggiori informazioni in pochi clic",
+        "Attribuzione del revisore e cronologia completa su ogni candidatura"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Segnalazioni",
+      "title": "Segnalazioni che non si perdono in un log di chat",
+      "description": "Le segnalazioni dei membri arrivano in modo strutturato, ricevono uno stato e una priorità e restano assegnate a un membro dello staff — invece di dover scorrere i canali per ricostruire cos'è successo.",
+      "bullets": [
+        "Ogni segnalazione aperta con il suo stato e la sua priorità",
+        "Membro dello staff assegnato e dettagli del caso",
+        "Categoria, descrizione e prove in un unico posto",
+        "Cronologia del caso così nulla viene rivisto due volte, o perso"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Ricorsi",
+      "title": "Un flusso di lavoro strutturato per i ricorsi contro i ban",
+      "description": "I ricorsi seguono lo stesso schema di revisione di candidature e segnalazioni, così il tuo team di moderazione ha un unico processo coerente invece di tre diversi.",
+      "bullets": [
+        "Ogni ricorso inviato con il suo stato attuale",
+        "Revisione dello staff e decisione finale, registrate",
+        "Informazioni sul revisore e cronologia attività",
+        "Una traccia chiara nel caso una decisione venga mai messa in discussione"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Staff",
+      "title": "Responsabilità e visibilità per il tuo team",
+      "description": "Vedi chi è attivo, chi porta il carico di lavoro e cosa è stato fatto — senza automatizzare le decisioni vere e proprie. Lo staff prende comunque ogni decisione; la dashboard rende solo visibile il loro lavoro.",
+      "bullets": [
+        "Attività dello staff e carico di lavoro attuale",
+        "Cosa ogni membro dello staff ha preso in carico e risolto",
+        "\"Ultimo esame di\" su ogni elemento",
+        "Una cronologia attività completa, non solo l'ultima azione"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Statistiche",
+    "title": "Scopri come sta andando davvero il tuo team",
+    "description": "Una lettura chiara del carico di lavoro e dei tempi, così non devi indovinare se le segnalazioni si stanno accumulando.",
+    "pendingApplications": "Candidature in sospeso",
+    "openReports": "Segnalazioni aperte",
+    "openAppeals": "Ricorsi aperti",
+    "applicationsProcessed30d": "Candidature elaborate (30gg)",
+    "reportsResolved30d": "Segnalazioni risolte (30gg)",
+    "avgResolutionTime": "Tempo medio di risoluzione",
+    "activeStaff": "Staff attivo",
+    "statusBreakdown": "Ripartizione degli stati delle candidature",
+    "last30Days": "Ultimi 30 giorni"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "La dashboard",
+    "title": "Cosa vede davvero il tuo staff",
+    "description": "Un'interfaccia unica e coerente per ogni parte del flusso di lavoro. La scheda Candidature qui sotto è live — clicca su un candidato, prendi in carico il caso e prova ad approvarlo o rifiutarlo.",
+    "tabsAria": "Sezioni della dashboard",
+    "applications": "Candidature",
+    "reports": "Segnalazioni",
+    "appeals": "Ricorsi",
+    "staff": "Staff",
+    "analytics": "Statistiche",
+    "activity": "Attività"
+  },
+  "sandbox": {
+    "clickHint": "Clicca su un candidato per aprire il suo caso.",
+    "resetDemo": "Reimposta demo",
+    "demoReset": "Demo reimpostata",
+    "backToList": "Torna alla lista",
+    "claimedByLabel": "Preso in carico da:",
+    "unclaimed": "Non preso in carico",
+    "claim": "Prendi in carico",
+    "unclaim": "Rilascia",
+    "claimed": "Preso in carico",
+    "youDemo": "Tu (demo)",
+    "approve": "Approva",
+    "deny": "Rifiuta",
+    "requestInfo": "Richiedi informazioni",
+    "applicationAccepted": "Candidatura accettata",
+    "applicationRejected": "Candidatura rifiutata",
+    "markedNeedsInfo": "Contrassegnata come bisognosa di più informazioni",
+    "applicant": "Candidato",
+    "status": "Stato",
+    "claimedBy": "Preso in carico da",
+    "submitted": "Inviato",
+    "age": "Età",
+    "timezone": "Fuso orario",
+    "weeklyHours": "Ore settimanali",
+    "previousExperience": "Esperienza precedente"
+  },
+  "mockups": {
+    "unassigned": "Non assegnato",
+    "priorityHigh": "Priorità alta",
+    "priorityMedium": "Priorità media",
+    "priorityLow": "Priorità bassa",
+    "reportedPrefix": "Segnalato:",
+    "appellant": "Ricorrente",
+    "originalBanReason": "Motivo originale del ban",
+    "reviewer": "Revisore",
+    "claimedCount": "Presi in carico",
+    "resolved7d": "Risolti (7gg)",
+    "lastActive": "Ultima attività"
+  },
+  "status": {
+    "pending": "In sospeso",
+    "reviewing": "In revisione",
+    "needs_info": "Info richieste",
+    "accepted": "Accettata",
+    "approved": "Approvato",
+    "resolved": "Risolto",
+    "rejected": "Rifiutata",
+    "denied": "Respinto",
+    "dismissed": "Archiviato"
+  },
+  "customization": {
+    "eyebrow": "Personalizzazione",
+    "title": "Configurata per adattarsi alla tua community, non il contrario",
+    "description": "Sono disponibili opzioni personalizzate a seconda delle esigenze della tua community — non tutte le personalizzazioni mostrate qui esistono di default, ma possono essere sviluppate per la tua configurazione.",
+    "options": [
+      { "title": "Branding personalizzato", "description": "Nome, colori e logo della tua community su tutta la dashboard." },
+      { "title": "Domande di candidatura personalizzate", "description": "Chiedi ciò che conta davvero per i ruoli del tuo staff." },
+      { "title": "Flussi di lavoro personalizzati", "description": "Si adatta al processo di revisione che il tuo team già usa." },
+      { "title": "Ruoli e permessi staff personalizzati", "description": "Controlla chi può esaminare, decidere o solo visualizzare." },
+      { "title": "Pagine personalizzate", "description": "Aggiungi pagine specifiche per le esigenze della tua community." },
+      { "title": "Integrazioni personalizzate", "description": "Collega gli strumenti su cui il tuo team già fa affidamento." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Pensata per le community Discord",
+    "title": "Progettata per funzionare accanto al tuo server Discord",
+    "description": "La dashboard funziona sul web, separata da Discord stesso, ed è progettata specificamente per i team che gestiscono una community Discord.",
+    "steps": [
+      { "title": "Collega il tuo server Discord", "description": "Collega la tua community così la dashboard sa chi è chi." },
+      { "title": "Configura la tua community", "description": "Imposta le domande di candidatura, i ruoli dello staff e il flusso di lavoro." },
+      { "title": "Lo staff accede alla dashboard", "description": "Il tuo team accede per esaminare, decidere e tenere traccia di tutto." },
+      { "title": "Gestisci candidature, segnalazioni e ricorsi", "description": "Da qui tutto passa attraverso un unico processo coerente." }
+    ],
+    "disclaimer": "Questa pagina marketing è solo una vetrina del prodotto e non si collega essa stessa a Discord. Non è affiliata, approvata o sponsorizzata da Discord Inc."
+  },
+  "pricing": {
+    "eyebrow": "Prezzi",
+    "title": "Piani semplici, configurati per ogni community",
+    "note": "I prezzi sono al momento illustrativi — ogni piano viene configurato individualmente. Nessun pagamento viene elaborato su questo sito.",
+    "mostPopular": "Più popolare",
+    "cta": "Richiedi una demo",
+    "tiers": [
+      {
+        "name": "Community",
+        "blurb": "Per le community più piccole che si stanno organizzando.",
+        "features": ["Candidature", "Segnalazioni", "Ricorsi", "Dashboard staff", "Integrazione Discord", "Statistiche di base"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "Per le community più grandi con un team di staff attivo.",
+        "features": ["Tutto ciò che è incluso in Community", "Statistiche avanzate", "Branding personalizzato", "Configurazione aggiuntiva", "Flussi di lavoro più avanzati"]
+      },
+      {
+        "name": "Personalizzato",
+        "blurb": "Per le community che hanno bisogno di qualcosa di specifico.",
+        "features": ["Flussi di lavoro personalizzati", "Pagine personalizzate", "Branding personalizzato", "Integrazioni personalizzate", "Sviluppo su misura"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Opzionale",
+    "title": "Assistenza IA, se e quando la vuoi",
+    "description": "Il prodotto principale è la dashboard e il flusso di revisione, gestito dal tuo staff. Alcune community aggiungono anche funzionalità opzionali assistite dall'IA — come un riassunto scritto di una candidatura per aiutare un revisore a scorrere più velocemente. L'IA non prende mai la decisione finale, non bannisce mai nessuno automaticamente e non è inclusa di default in tutti i piani. Il tuo staff resta responsabile di ogni decisione."
+  },
+  "finalCta": {
+    "title": "Pronto a semplificare la gestione della tua community?",
+    "description": "Scopri come la dashboard potrebbe adattarsi al flusso di moderazione della tua community.",
+    "cta": "Richiedi una demo"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Cos'è questa piattaforma?",
+        "answer": "GuildDesk è una dashboard web che aiuta lo staff delle community Discord a gestire candidature per moderatore, segnalazioni dei membri, ricorsi contro i ban e attività dello staff in un unico posto organizzato, invece che tra canali Discord e DM sparsi."
+      },
+      {
+        "question": "A chi è rivolta?",
+        "answer": "A qualsiasi community Discord con un team di staff — server di roleplay, community di gaming, community di creator e altro ancora. È progettata per essere abbastanza generica da adattarsi a diversi tipi di community, senza essere legata a un gioco o server specifico."
+      },
+      {
+        "question": "Funziona con Discord?",
+        "answer": "Sì. È progettata per funzionare accanto al tuo server Discord: i membri interagiscono tramite una dashboard web e lo staff esamina e gestisce tutto da lì. Questo sito marketing di per sé non si collega a Discord — è un'anteprima del prodotto."
+      },
+      {
+        "question": "Posso personalizzare la dashboard?",
+        "answer": "Sono disponibili opzioni personalizzate a seconda delle esigenze della tua community — cose come branding, domande di candidatura, flussi di lavoro e ruoli dello staff. Non tutte le personalizzazioni esistono già pronte; sviluppiamo ciò di cui la tua community ha davvero bisogno."
+      },
+      {
+        "question": "Posso usarla per la mia community di gaming?",
+        "answer": "Sì. Sebbene il concetto sia nato dal processo di candidatura per moderatore di un server di roleplay, il flusso di lavoro sottostante — candidature, segnalazioni, ricorsi, responsabilità dello staff — si applica anche a Roblox, FiveM, Minecraft e altre community di gaming o creator."
+      },
+      {
+        "question": "Posso richiedere funzionalità personalizzate?",
+        "answer": "Sì — contattaci con ciò di cui la tua community ha bisogno e ti faremo sapere cosa è possibile."
+      },
+      {
+        "question": "Devo installare qualcosa?",
+        "answer": "No. La dashboard funziona nel browser. Non c'è nulla da installare sul tuo server o sui dispositivi dei tuoi membri."
+      },
+      {
+        "question": "L'IA è obbligatoria?",
+        "answer": "No. Il prodotto principale è la dashboard e il flusso di gestione, gestito dal tuo staff umano. Le funzionalità assistite dall'IA sono una capacità opzionale e aggiuntiva — non qualcosa incluso in ogni piano, e mai un sostituto dello staff nel prendere le decisioni vere e proprie."
+      },
+      {
+        "question": "Come funziona l'hosting?",
+        "answer": "La dashboard è ospitata per te — nessuna gestione del server da parte tua. I dettagli vengono definiti per ogni community durante la configurazione."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "Non affiliato, approvato o sponsorizzato da Discord Inc.",
+    "previewNote": "Questo è un sito di anteprima — le schermate della dashboard mostrate sono mockup illustrativi con dati demo."
+  },
+  "demoDataNote": "Tutti i nomi, gli utenti e le statistiche mostrati sono dati demo a solo scopo illustrativo."
+}

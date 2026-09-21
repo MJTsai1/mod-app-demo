@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import { siteConfig } from "@/lib/config";
 import type { MockStatus } from "@/lib/mockData";
 
@@ -75,7 +76,7 @@ export function SectionHeading({
   description?: string;
   align?: "center" | "left";
 }) {
-  const alignClass = align === "center" ? "mx-auto text-center items-center" : "text-left items-start";
+  const alignClass = align === "center" ? "mx-auto text-center items-center" : "text-start items-start";
   return (
     <div className={`flex max-w-2xl flex-col gap-3 ${alignClass}`}>
       <span className="text-xs font-semibold uppercase tracking-widest text-[var(--color-accent-soft)]">
@@ -105,7 +106,7 @@ export function BrowserFrame({
           <span className="h-2.5 w-2.5 rounded-full bg-[#fbbf24]/60" />
           <span className="h-2.5 w-2.5 rounded-full bg-[#34d399]/60" />
         </div>
-        <div className="ml-3 flex-1 truncate rounded-md bg-[var(--color-surface-hover)] px-3 py-1 text-center text-xs text-[var(--color-text-subtle)]">
+        <div className="ms-3 flex-1 truncate rounded-md bg-[var(--color-surface-hover)] px-3 py-1 text-center text-xs text-[var(--color-text-subtle)]">
           {title}
         </div>
       </div>
@@ -126,31 +127,21 @@ const STATUS_STYLES: Record<MockStatus, { bg: string; color: string }> = {
   dismissed: { bg: "rgba(138,128,171,0.15)", color: "var(--color-text-subtle)" },
 };
 
-const STATUS_LABELS: Record<MockStatus, string> = {
-  pending: "Pending",
-  reviewing: "Reviewing",
-  needs_info: "Needs Info",
-  accepted: "Accepted",
-  approved: "Approved",
-  resolved: "Resolved",
-  rejected: "Rejected",
-  denied: "Denied",
-  dismissed: "Dismissed",
-};
-
 export function StatusPill({ status }: { status: MockStatus }) {
+  const t = useTranslations("status");
   const style = STATUS_STYLES[status];
   return (
     <span className="badge" style={{ background: style.bg, color: style.color }}>
-      {STATUS_LABELS[status]}
+      {t(status)}
     </span>
   );
 }
 
 export function DemoDataNote({ className = "" }: { className?: string }) {
+  const t = useTranslations();
   return (
     <p className={`text-xs text-[var(--color-text-subtle)] ${className}`}>
-      All names, users, and statistics shown are demo data for illustration only.
+      {t("demoDataNote")}
     </p>
   );
 }

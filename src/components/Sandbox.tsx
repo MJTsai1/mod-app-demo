@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { StatusPill } from "@/components/ui";
 import { mockApplications, type MockStatus } from "@/lib/mockData";
 
@@ -16,16 +17,16 @@ interface SandboxApp {
   claimedBy: string | null;
 }
 
-const YOU = "You (demo)";
-
 function initialApps(): SandboxApp[] {
   return mockApplications.map((app) => ({ ...app }));
 }
 
 export function Sandbox() {
+  const t = useTranslations("sandbox");
   const [apps, setApps] = useState<SandboxApp[]>(initialApps);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [flash, setFlash] = useState<string | null>(null);
+  const you = t("youDemo");
 
   const selected = apps.find((app) => app.id === selectedId) ?? null;
 
@@ -41,7 +42,7 @@ export function Sandbox() {
   function reset() {
     setApps(initialApps());
     setSelectedId(null);
-    announce("Demo reset");
+    announce(t("demoReset"));
   }
 
   if (selected) {
@@ -53,10 +54,10 @@ export function Sandbox() {
             onClick={() => setSelectedId(null)}
             className="flex items-center gap-1.5 text-sm font-medium text-[var(--color-accent-soft)] hover:underline"
           >
-            <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4" aria-hidden>
+            <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4 rtl:-scale-x-100" aria-hidden>
               <path d="M12.5 15.5L7 10l5.5-5.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            Back to list
+            {t("backToList")}
           </button>
           {flash && <span className="text-xs text-[var(--color-success)]">{flash}</span>}
         </div>
@@ -71,53 +72,53 @@ export function Sandbox() {
 
         <div className="grid grid-cols-3 gap-4 rounded-xl border border-[var(--color-border)] p-4 text-sm">
           <div>
-            <p className="text-xs text-[var(--color-text-subtle)]">Age</p>
+            <p className="text-xs text-[var(--color-text-subtle)]">{t("age")}</p>
             <p className="text-[var(--color-text)]">{selected.age}</p>
           </div>
           <div>
-            <p className="text-xs text-[var(--color-text-subtle)]">Timezone</p>
+            <p className="text-xs text-[var(--color-text-subtle)]">{t("timezone")}</p>
             <p className="text-[var(--color-text)]">{selected.timezone}</p>
           </div>
           <div>
-            <p className="text-xs text-[var(--color-text-subtle)]">Weekly hours</p>
+            <p className="text-xs text-[var(--color-text-subtle)]">{t("weeklyHours")}</p>
             <p className="text-[var(--color-text)]">{selected.weeklyHours}</p>
           </div>
         </div>
 
         <div>
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-[var(--color-text-subtle)]">
-            Previous experience
+            {t("previousExperience")}
           </p>
           <p className="text-sm text-[var(--color-text-muted)]">{selected.experience}</p>
         </div>
 
         <div className="text-sm text-[var(--color-text-muted)]">
-          Claimed by:{" "}
-          <span className="text-[var(--color-text)]">{selected.claimedBy ?? "Unclaimed"}</span>
+          {t("claimedByLabel")}{" "}
+          <span className="text-[var(--color-text)]">{selected.claimedBy ?? t("unclaimed")}</span>
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {selected.claimedBy === YOU ? (
+          {selected.claimedBy === you ? (
             <button
               type="button"
               className="btn btn-secondary text-sm"
               onClick={() => {
                 updateApp(selected.id, { claimedBy: null });
-                announce("Unclaimed");
+                announce(t("unclaim"));
               }}
             >
-              Unclaim
+              {t("unclaim")}
             </button>
           ) : (
             <button
               type="button"
               className="btn btn-secondary text-sm"
               onClick={() => {
-                updateApp(selected.id, { claimedBy: YOU });
-                announce("Claimed");
+                updateApp(selected.id, { claimedBy: you });
+                announce(t("claimed"));
               }}
             >
-              Claim
+              {t("claim")}
             </button>
           )}
           <button
@@ -125,30 +126,30 @@ export function Sandbox() {
             className="btn btn-primary text-sm"
             onClick={() => {
               updateApp(selected.id, { status: "accepted" });
-              announce("Application accepted");
+              announce(t("applicationAccepted"));
             }}
           >
-            Approve
+            {t("approve")}
           </button>
           <button
             type="button"
             className="btn btn-secondary text-sm"
             onClick={() => {
               updateApp(selected.id, { status: "rejected" });
-              announce("Application rejected");
+              announce(t("applicationRejected"));
             }}
           >
-            Deny
+            {t("deny")}
           </button>
           <button
             type="button"
             className="btn btn-secondary text-sm"
             onClick={() => {
               updateApp(selected.id, { status: "needs_info" });
-              announce("Marked as needing more info");
+              announce(t("markedNeedsInfo"));
             }}
           >
-            Request info
+            {t("requestInfo")}
           </button>
         </div>
       </div>
@@ -158,7 +159,7 @@ export function Sandbox() {
   return (
     <div>
       <div className="mb-3 flex items-center justify-between">
-        <p className="text-xs text-[var(--color-text-subtle)]">Click an applicant to open their case.</p>
+        <p className="text-xs text-[var(--color-text-subtle)]">{t("clickHint")}</p>
         <div className="flex items-center gap-3">
           {flash && <span className="text-xs text-[var(--color-success)]">{flash}</span>}
           <button
@@ -166,18 +167,18 @@ export function Sandbox() {
             onClick={reset}
             className="text-xs font-medium text-[var(--color-text-subtle)] hover:text-[var(--color-text)] hover:underline"
           >
-            Reset demo
+            {t("resetDemo")}
           </button>
         </div>
       </div>
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[560px] text-left text-sm">
+        <table className="w-full min-w-[560px] text-start text-sm">
           <thead className="text-xs uppercase tracking-wide text-[var(--color-text-subtle)]">
             <tr className="border-b border-[var(--color-border)]">
-              <th className="py-2 pr-4 font-medium">Applicant</th>
-              <th className="py-2 pr-4 font-medium">Status</th>
-              <th className="py-2 pr-4 font-medium">Claimed by</th>
-              <th className="py-2 pr-4 font-medium">Submitted</th>
+              <th className="py-2 pe-4 font-medium">{t("applicant")}</th>
+              <th className="py-2 pe-4 font-medium">{t("status")}</th>
+              <th className="py-2 pe-4 font-medium">{t("claimedBy")}</th>
+              <th className="py-2 pe-4 font-medium">{t("submitted")}</th>
             </tr>
           </thead>
           <tbody>
@@ -187,17 +188,17 @@ export function Sandbox() {
                 onClick={() => setSelectedId(app.id)}
                 className="cursor-pointer border-b border-[var(--color-border)] transition last:border-0 hover:bg-[var(--color-surface-hover)]"
               >
-                <td className="py-3 pr-4">
+                <td className="py-3 pe-4">
                   <div className="font-medium text-[var(--color-text)]">{app.applicant}</div>
                   <div className="font-mono text-xs text-[var(--color-text-subtle)]">{app.id}</div>
                 </td>
-                <td className="py-3 pr-4">
+                <td className="py-3 pe-4">
                   <StatusPill status={app.status} />
                 </td>
-                <td className="py-3 pr-4 text-[var(--color-text-muted)]">
-                  {app.claimedBy ?? <span className="text-[var(--color-text-subtle)]">Unclaimed</span>}
+                <td className="py-3 pe-4 text-[var(--color-text-muted)]">
+                  {app.claimedBy ?? <span className="text-[var(--color-text-subtle)]">{t("unclaimed")}</span>}
                 </td>
-                <td className="py-3 pr-4 text-[var(--color-text-subtle)]">{app.submitted}</td>
+                <td className="py-3 pe-4 text-[var(--color-text-subtle)]">{app.submitted}</td>
               </tr>
             ))}
           </tbody>

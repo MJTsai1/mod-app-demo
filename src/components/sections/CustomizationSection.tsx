@@ -1,23 +1,18 @@
+import { getTranslations } from "next-intl/server";
 import { SectionHeading, Reveal } from "@/components/ui";
 
-const options = [
-  { title: "Custom branding", description: "Your community's name, colours, and logo across the dashboard." },
-  { title: "Custom application questions", description: "Ask what actually matters for your community's staff roles." },
-  { title: "Custom workflows", description: "Match the review process your team already uses." },
-  { title: "Custom staff roles & permissions", description: "Control who can review, decide, or just view." },
-  { title: "Custom pages", description: "Add pages specific to your community's needs." },
-  { title: "Custom integrations", description: "Connect the tools your team already relies on." },
-];
+export async function CustomizationSection() {
+  const t = await getTranslations("customization");
+  const options = t.raw("options") as { title: string; description: string }[];
 
-export function CustomizationSection() {
   return (
     <section className="px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <SectionHeading
-            eyebrow="Customisation"
-            title="Set up to fit your community, not the other way around"
-            description="Custom options are available depending on your community's requirements — not every customisation shown here exists by default, but it can be built out for your setup."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
           />
         </Reveal>
 

@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Discord-Community-Management, vereinfacht.",
+    "description": "GuildDesk ist eine Discord-Community-Management-Plattform für Bewerbungen, Meldungen, Einsprüche und Team-Aktivitäten — entwickelt für Gaming-, Roleplay- und Creator-Communities."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "dashboard": "Dashboard",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "requestDemo": "Demo anfordern",
+    "getInTouch": "Kontakt aufnehmen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "primary": "Hauptnavigation",
+    "primaryMobile": "Hauptnavigation mobil"
+  },
+  "hero": {
+    "badge": "Jetzt werden Pilot-Communities aufgenommen",
+    "titlePrefix": "Discord-Community-",
+    "titleHighlight": "Management",
+    "titleSuffix": ", vereinfacht.",
+    "subTagline": "Verwalte Bewerbungen, Meldungen, Einsprüche und Team-Aktivitäten von einem leistungsstarken Dashboard aus.",
+    "requestDemo": "Demo anfordern",
+    "seeDashboard": "Dashboard ansehen",
+    "builtFor": "Entwickelt für",
+    "communities": [
+      "Roblox-Communities",
+      "ERLC-Communities",
+      "FiveM-Communities",
+      "Minecraft-Communities",
+      "Gaming-Communities",
+      "Creator-Communities"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Warum nicht einfach Discord und Tabellenkalkulationen nutzen?",
+    "title": "Weil es aufhört zu funktionieren, sobald dein Team wächst",
+    "description": "Discord-Kanäle und Tabellenkalkulationen sind kostenlos und funktionieren eine Weile. So sieht es meist aus, sobald eine Community zu einem eigenen Dashboard wechselt.",
+    "beforeLabel": "Vorher",
+    "before": [
+      "Bewerbungen liegen in einem Google Form oder einer Tabelle, die niemand regelmäßig prüft",
+      "Meldungen versinken in einem #mod-reports-Discord-Kanal — endloses Scrollen, um eine zu finden",
+      "Bann-Einsprüche werden per Discord-DM bearbeitet, ohne jede Aufzeichnung der Entscheidung",
+      "Keine Möglichkeit zu erkennen, wer eigentlich was bearbeitet",
+      "Demselben Teamkollegen denselben Fall erneut erklären, weil nichts schriftlich festgehalten ist"
+    ],
+    "afterLabel": "Nachher",
+    "after": [
+      "Jede Bewerbung in einer einzigen, nach Status sortierten Warteschlange",
+      "Meldungen mit Kategorie, Priorität und zugewiesenem Teammitglied erfasst",
+      "Einsprüche mit klarer Entscheidung und dokumentiertem Prüfer bearbeitet",
+      "Einen Fall übernehmen, damit sich das Team nicht doppelt kümmert",
+      "Eine vollständige Aktivitätshistorie zu jedem Fall, für das Team auf einen Blick sichtbar"
+    ]
+  },
+  "features": {
+    "eyebrow": "Was es leistet",
+    "title": "Alles, was dein Team braucht, an einem Ort",
+    "description": "Ein Dashboard für die vier Dinge, die sonst über Discord-Kanäle, DMs und Tabellenkalkulationen verstreut sind.",
+    "recentActivity": "Letzte Aktivität",
+    "applications": {
+      "eyebrow": "Bewerbungen",
+      "title": "Bewerbungsverwaltung, ganz ohne Tabelle",
+      "description": "Mitglieder bewerben sich über ein geführtes Formular, und das Team prüft alles aus einer einzigen Warteschlange — kein Wühlen mehr zwischen Google Form und separater Tabelle.",
+      "bullets": [
+        "Offene Bewerbungen mit Bewerberinfos auf einen Blick",
+        "Individuelle Bewerbungsfragen je Community",
+        "Eine Bewerbung übernehmen, damit sich das Team nicht doppelt kümmert",
+        "In wenigen Klicks annehmen, ablehnen oder weitere Infos anfordern",
+        "Prüferzuordnung und vollständige Prüfhistorie zu jeder Bewerbung"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Meldungen",
+      "title": "Meldungen, die nicht im Chatverlauf untergehen",
+      "description": "Mitgliedermeldungen kommen strukturiert an, erhalten Status und Priorität und bleiben einem Teammitglied zugewiesen — statt dass das Team Kanäle zurückscrollen muss, um zu rekonstruieren, was passiert ist.",
+      "bullets": [
+        "Jede offene Meldung mit Status und Priorität",
+        "Zugewiesenes Teammitglied und Falldetails",
+        "Kategorie, Beschreibung und Beweise an einem Ort",
+        "Fallhistorie, damit nichts doppelt geprüft — oder übersehen — wird"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Einsprüche",
+      "title": "Ein strukturierter Ablauf für Bann-Einsprüche",
+      "description": "Einsprüche folgen demselben Prüfmuster wie Bewerbungen und Meldungen — dein Moderationsteam hat so einen einzigen einheitlichen Prozess statt drei verschiedener.",
+      "bullets": [
+        "Jeder eingereichte Einspruch mit aktuellem Status",
+        "Team-Prüfung und finale Entscheidung, dokumentiert",
+        "Prüferinformationen und Aktivitätshistorie",
+        "Eine klare Nachvollziehbarkeit, falls eine Entscheidung jemals infrage gestellt wird"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Team",
+      "title": "Verantwortlichkeit und Transparenz für dein Team",
+      "description": "Sieh, wer aktiv ist, wer die Arbeitslast trägt und was erledigt wurde — ohne die eigentlichen Entscheidungen zu automatisieren. Das Team trifft weiterhin jede Entscheidung; das Dashboard macht nur die Arbeit sichtbar.",
+      "bullets": [
+        "Team-Aktivität und aktuelle Arbeitslast",
+        "Was jedes Teammitglied übernommen und abgeschlossen hat",
+        "„Zuletzt geprüft von“ bei jedem Eintrag",
+        "Eine vollständige Aktivitätshistorie, nicht nur die letzte Aktion"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Statistiken",
+    "title": "Sieh, wie es deinem Team wirklich geht",
+    "description": "Ein klarer Überblick über Arbeitslast und Bearbeitungszeit, damit du nicht raten musst, ob sich Meldungen stapeln.",
+    "pendingApplications": "Offene Bewerbungen",
+    "openReports": "Offene Meldungen",
+    "openAppeals": "Offene Einsprüche",
+    "applicationsProcessed30d": "Bearbeitete Bewerbungen (30 Tage)",
+    "reportsResolved30d": "Gelöste Meldungen (30 Tage)",
+    "avgResolutionTime": "Ø Bearbeitungszeit",
+    "activeStaff": "Aktive Teammitglieder",
+    "statusBreakdown": "Aufschlüsselung der Bewerbungsstatus",
+    "last30Days": "Letzte 30 Tage"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "Das Dashboard",
+    "title": "Was dein Team wirklich sieht",
+    "description": "Eine einheitliche, konsistente Oberfläche für jeden Teil des Arbeitsablaufs. Der Tab „Bewerbungen“ unten ist live — klicke auf einen Bewerber, übernimm den Fall und probiere aus, ihn anzunehmen oder abzulehnen.",
+    "tabsAria": "Dashboard-Bereiche",
+    "applications": "Bewerbungen",
+    "reports": "Meldungen",
+    "appeals": "Einsprüche",
+    "staff": "Team",
+    "analytics": "Statistiken",
+    "activity": "Aktivität"
+  },
+  "sandbox": {
+    "clickHint": "Klicke auf einen Bewerber, um den Fall zu öffnen.",
+    "resetDemo": "Demo zurücksetzen",
+    "demoReset": "Demo zurückgesetzt",
+    "backToList": "Zurück zur Liste",
+    "claimedByLabel": "Übernommen von:",
+    "unclaimed": "Nicht übernommen",
+    "claim": "Übernehmen",
+    "unclaim": "Freigeben",
+    "claimed": "Übernommen",
+    "youDemo": "Du (Demo)",
+    "approve": "Annehmen",
+    "deny": "Ablehnen",
+    "requestInfo": "Infos anfordern",
+    "applicationAccepted": "Bewerbung angenommen",
+    "applicationRejected": "Bewerbung abgelehnt",
+    "markedNeedsInfo": "Als „weitere Infos nötig“ markiert",
+    "applicant": "Bewerber",
+    "status": "Status",
+    "claimedBy": "Übernommen von",
+    "submitted": "Eingereicht",
+    "age": "Alter",
+    "timezone": "Zeitzone",
+    "weeklyHours": "Stunden pro Woche",
+    "previousExperience": "Bisherige Erfahrung"
+  },
+  "mockups": {
+    "unassigned": "Nicht zugewiesen",
+    "priorityHigh": "Hohe Priorität",
+    "priorityMedium": "Mittlere Priorität",
+    "priorityLow": "Niedrige Priorität",
+    "reportedPrefix": "Gemeldet:",
+    "appellant": "Einspruchsführer",
+    "originalBanReason": "Ursprünglicher Bann-Grund",
+    "reviewer": "Prüfer",
+    "claimedCount": "Übernommen",
+    "resolved7d": "Gelöst (7 Tage)",
+    "lastActive": "Zuletzt aktiv"
+  },
+  "status": {
+    "pending": "Ausstehend",
+    "reviewing": "In Prüfung",
+    "needs_info": "Infos benötigt",
+    "accepted": "Angenommen",
+    "approved": "Genehmigt",
+    "resolved": "Gelöst",
+    "rejected": "Abgelehnt",
+    "denied": "Verweigert",
+    "dismissed": "Abgewiesen"
+  },
+  "customization": {
+    "eyebrow": "Anpassung",
+    "title": "Eingerichtet für deine Community, nicht umgekehrt",
+    "description": "Individuelle Optionen sind je nach den Anforderungen deiner Community verfügbar — nicht jede hier gezeigte Anpassung ist standardmäßig vorhanden, kann aber für dein Setup umgesetzt werden.",
+    "options": [
+      { "title": "Individuelles Branding", "description": "Name, Farben und Logo deiner Community im gesamten Dashboard." },
+      { "title": "Individuelle Bewerbungsfragen", "description": "Frage genau das ab, was für die Team-Rollen deiner Community wichtig ist." },
+      { "title": "Individuelle Arbeitsabläufe", "description": "Passt sich dem Prüfprozess an, den dein Team bereits nutzt." },
+      { "title": "Individuelle Team-Rollen & Berechtigungen", "description": "Kontrolliere, wer prüfen, entscheiden oder nur einsehen darf." },
+      { "title": "Individuelle Seiten", "description": "Füge Seiten hinzu, die speziell auf die Bedürfnisse deiner Community zugeschnitten sind." },
+      { "title": "Individuelle Integrationen", "description": "Verbinde die Tools, auf die dein Team bereits setzt." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Entwickelt für Discord-Communities",
+    "title": "Konzipiert für den Einsatz neben deinem Discord-Server",
+    "description": "Das Dashboard läuft im Web, getrennt von Discord selbst, und ist speziell für Teams entwickelt, die eine Discord-Community verwalten.",
+    "steps": [
+      { "title": "Verbinde deinen Discord-Server", "description": "Verknüpfe deine Community, damit das Dashboard weiß, wer wer ist." },
+      { "title": "Konfiguriere deine Community", "description": "Lege deine Bewerbungsfragen, Team-Rollen und Arbeitsabläufe fest." },
+      { "title": "Team greift auf das Dashboard zu", "description": "Dein Team meldet sich an, um zu prüfen, zu entscheiden und alles nachzuverfolgen." },
+      { "title": "Bewerbungen, Meldungen & Einsprüche verwalten", "description": "Von hier an läuft alles über einen einzigen, einheitlichen Prozess." }
+    ],
+    "disclaimer": "Diese Marketing-Seite ist lediglich eine Produktvorschau und verbindet sich selbst nicht mit Discord. Sie ist nicht mit Discord Inc. verbunden, wird nicht von ihnen unterstützt oder gesponsert."
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "title": "Einfache Pläne, je Community eingerichtet",
+    "note": "Die Preise sind derzeit nur zur Veranschaulichung — jeder Plan wird individuell eingerichtet. Auf dieser Seite werden keine Zahlungen verarbeitet.",
+    "mostPopular": "Am beliebtesten",
+    "cta": "Demo anfordern",
+    "tiers": [
+      {
+        "name": "Community",
+        "blurb": "Für kleinere Communities, die sich gerade organisieren.",
+        "features": ["Bewerbungen", "Meldungen", "Einsprüche", "Team-Dashboard", "Discord-Integration", "Basis-Statistiken"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "Für größere Communities mit einem aktiven Team.",
+        "features": ["Alles aus Community", "Erweiterte Statistiken", "Individuelles Branding", "Zusätzliche Konfiguration", "Fortgeschrittenere Arbeitsabläufe"]
+      },
+      {
+        "name": "Individuell",
+        "blurb": "Für Communities, die etwas Spezifisches benötigen.",
+        "features": ["Individuelle Arbeitsabläufe", "Individuelle Seiten", "Individuelles Branding", "Individuelle Integrationen", "Individuelle Entwicklung"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Optional",
+    "title": "KI-Unterstützung, wenn und falls du sie möchtest",
+    "description": "Das Kernprodukt ist das Dashboard und der Prüfworkflow, geführt von deinem Team. Manche Communities fügen auch optionale KI-gestützte Funktionen hinzu — etwa eine schriftliche Zusammenfassung einer Bewerbung, damit ein Prüfer schneller überfliegen kann. KI trifft nie die endgültige Entscheidung, bannt niemals automatisch und ist nicht standardmäßig in jedem Plan enthalten. Dein Team bleibt für jede Entscheidung verantwortlich."
+  },
+  "finalCta": {
+    "title": "Bereit, dein Community-Management zu vereinfachen?",
+    "description": "Sieh, wie das Dashboard zum Moderations-Workflow deiner Community passen könnte.",
+    "cta": "Demo anfordern"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Was ist diese Plattform?",
+        "answer": "GuildDesk ist ein Web-Dashboard, das dem Team von Discord-Communities hilft, Moderator-Bewerbungen, Mitgliedermeldungen, Bann-Einsprüche und Team-Aktivitäten an einem organisierten Ort zu verwalten — statt verstreut über Discord-Kanäle und DMs."
+      },
+      {
+        "question": "Für wen ist es gedacht?",
+        "answer": "Für jede Discord-Community mit einem Team — Roleplay-Server, Gaming-Communities, Creator-Communities und mehr. Es ist generisch genug gestaltet, um zu unterschiedlichen Community-Arten zu passen, ohne an ein bestimmtes Spiel oder einen Server gebunden zu sein."
+      },
+      {
+        "question": "Funktioniert es mit Discord?",
+        "answer": "Ja. Es ist so konzipiert, dass es neben deinem Discord-Server läuft: Mitglieder interagieren über ein Web-Dashboard, und das Team prüft und verwaltet dort alles. Diese Marketing-Seite selbst verbindet sich nicht mit Discord — sie ist eine Vorschau des Produkts."
+      },
+      {
+        "question": "Kann ich das Dashboard anpassen?",
+        "answer": "Individuelle Optionen sind je nach den Anforderungen deiner Community verfügbar — etwa Branding, Bewerbungsfragen, Arbeitsabläufe und Team-Rollen. Nicht jede Anpassung ist von Haus aus vorhanden; wir bauen genau das, was deine Community tatsächlich braucht."
+      },
+      {
+        "question": "Kann ich es für meine Gaming-Community nutzen?",
+        "answer": "Ja. Auch wenn das Konzept ursprünglich beim Moderator-Bewerbungsprozess eines Roleplay-Servers begann, gilt der zugrunde liegende Ablauf — Bewerbungen, Meldungen, Einsprüche, Verantwortlichkeit des Teams — auch für Roblox, FiveM, Minecraft und andere Gaming- oder Creator-Communities."
+      },
+      {
+        "question": "Kann ich individuelle Funktionen anfragen?",
+        "answer": "Ja — melde dich mit dem, was deine Community braucht, und wir sagen dir, was möglich ist."
+      },
+      {
+        "question": "Muss ich etwas installieren?",
+        "answer": "Nein. Das Dashboard läuft im Browser. Es gibt nichts, was auf deinem Server oder den Geräten deiner Mitglieder installiert werden müsste."
+      },
+      {
+        "question": "Ist KI erforderlich?",
+        "answer": "Nein. Das Kernprodukt ist das Dashboard und der Verwaltungs-Workflow, geführt von deinem menschlichen Team. KI-gestützte Funktionen sind eine optionale Zusatzfunktion — nicht etwas, das in jedem Plan enthalten ist, und niemals ein Ersatz dafür, dass das Team die eigentlichen Entscheidungen trifft."
+      },
+      {
+        "question": "Wie funktioniert das Hosting?",
+        "answer": "Das Dashboard wird für dich gehostet — kein Server-Management auf deiner Seite. Details werden während der Einrichtung pro Community festgelegt."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "Nicht mit Discord Inc. verbunden, von ihnen unterstützt oder gesponsert.",
+    "previewNote": "Dies ist eine Vorschau-Seite — die gezeigten Dashboard-Ansichten sind illustrative Mockups mit Demo-Daten."
+  },
+  "demoDataNote": "Alle angezeigten Namen, Nutzer und Statistiken sind Demo-Daten nur zur Veranschaulichung."
+}

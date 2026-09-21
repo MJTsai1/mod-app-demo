@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { siteConfig } from "@/lib/config";
+import { useTranslations } from "next-intl";
 import { SectionHeading, Reveal } from "@/components/ui";
 
 function FAQItem({ question, answer }: { question: string; answer: string }) {
@@ -13,7 +13,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+        className="flex w-full items-center justify-between gap-4 px-6 py-5 text-start"
       >
         <span className="font-medium text-[var(--color-text)]">{question}</span>
         <svg
@@ -33,16 +33,19 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 }
 
 export function FAQSection() {
+  const t = useTranslations("faq");
+  const items = t.raw("items") as { question: string; answer: string }[];
+
   return (
     <section id="faq" className="px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-3xl">
         <Reveal>
-          <SectionHeading eyebrow="FAQ" title="Common questions" />
+          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />
         </Reveal>
 
         <Reveal delay={100}>
           <div className="mt-10 space-y-3">
-            {siteConfig.faqs.map((faq) => (
+            {items.map((faq) => (
               <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
             ))}
           </div>

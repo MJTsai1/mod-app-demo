@@ -192,9 +192,9 @@ export const mockStats = {
 };
 
 export const mockStatusBreakdown = [
-  { label: "Pending", value: 12, percent: 24 },
-  { label: "Reviewing", value: 18, percent: 36 },
-  { label: "Needs Info", value: 6, percent: 12 },
-  { label: "Accepted", value: 10, percent: 20 },
-  { label: "Rejected", value: 4, percent: 8 },
+  { status: "pending" as MockStatus, value: 12, percent: 24 },
+  { status: "reviewing" as MockStatus, value: 18, percent: 36 },
+  { status: "needs_info" as MockStatus, value: 6, percent: 12 },
+  { status: "accepted" as MockStatus, value: 10, percent: 20 },
+  { status: "rejected" as MockStatus, value: 4, percent: 8 },
 ] as const;

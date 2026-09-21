@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Gestión de comunidades de Discord, simplificada.",
+    "description": "GuildDesk es una plataforma de gestión de comunidades de Discord para solicitudes, reportes, apelaciones y actividad del personal — creada para comunidades de juegos, roleplay y creadores."
+  },
+  "nav": {
+    "features": "Funciones",
+    "dashboard": "Panel",
+    "pricing": "Precios",
+    "faq": "Preguntas frecuentes",
+    "requestDemo": "Solicitar una demo",
+    "getInTouch": "Contáctanos",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "primary": "Principal",
+    "primaryMobile": "Principal móvil"
+  },
+  "hero": {
+    "badge": "Ahora incorporando comunidades piloto",
+    "titlePrefix": "Gestión de comunidades",
+    "titleHighlight": "de Discord",
+    "titleSuffix": ", simplificada.",
+    "subTagline": "Gestiona solicitudes, reportes, apelaciones y actividad del personal desde un solo panel potente.",
+    "requestDemo": "Solicitar una demo",
+    "seeDashboard": "Ver el panel",
+    "builtFor": "Creado para",
+    "communities": [
+      "Comunidades de Roblox",
+      "Comunidades de ERLC",
+      "Comunidades de FiveM",
+      "Comunidades de Minecraft",
+      "Comunidades de juegos",
+      "Comunidades de creadores"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "¿Por qué no usar simplemente Discord y hojas de cálculo?",
+    "title": "Porque deja de funcionar en cuanto tu equipo crece",
+    "description": "Los canales de Discord y las hojas de cálculo son gratis, y funcionan durante un tiempo. Esto es lo que suele cambiar cuando una comunidad pasa a un panel dedicado.",
+    "beforeLabel": "Antes",
+    "before": [
+      "Solicitudes acumulándose en un Google Form o una hoja de cálculo que nadie revisa con regularidad",
+      "Reportes enterrados en un canal de Discord #mod-reports, desplazándose sin fin para encontrar uno",
+      "Apelaciones de baneo gestionadas por DM de Discord sin ningún registro de lo decidido",
+      "Ninguna forma de saber quién está revisando realmente qué",
+      "Tener que volver a explicar el mismo caso a un compañero porque nada está escrito"
+    ],
+    "afterLabel": "Después",
+    "after": [
+      "Cada solicitud en una sola cola, ordenada por estado",
+      "Reportes con categoría, prioridad y miembro del personal asignado",
+      "Apelaciones revisadas con una decisión clara y el revisor registrado",
+      "Reclamar un caso para que el personal no duplique el trabajo",
+      "Un historial de actividad completo en cada caso, visible para el personal de un vistazo"
+    ]
+  },
+  "features": {
+    "eyebrow": "Qué hace",
+    "title": "Todo lo que tu equipo necesita, en un solo lugar",
+    "description": "Un panel para las cuatro cosas que normalmente están dispersas entre canales de Discord, DMs y hojas de cálculo.",
+    "recentActivity": "Actividad reciente",
+    "applications": {
+      "eyebrow": "Solicitudes",
+      "title": "Gestión de solicitudes, sin la hoja de cálculo",
+      "description": "Los miembros solicitan mediante un formulario guiado, y el personal revisa todo desde una sola cola — sin tener que rebuscar entre un Google Form y una hoja de cálculo aparte.",
+      "bullets": [
+        "Solicitudes pendientes con la información del solicitante de un vistazo",
+        "Preguntas de solicitud personalizadas por comunidad",
+        "Reclamar una solicitud para que el personal no duplique la revisión",
+        "Aprobar, rechazar o pedir más información en un par de clics",
+        "Atribución del revisor e historial completo en cada solicitud"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Reportes",
+      "title": "Reportes que no se pierden en un registro de chat",
+      "description": "Los reportes de miembros llegan de forma estructurada, reciben un estado y una prioridad, y permanecen asignados a un miembro del personal — en lugar de que el personal tenga que desplazarse por canales para reconstruir lo sucedido.",
+      "bullets": [
+        "Cada reporte abierto con su estado y prioridad",
+        "Miembro del personal asignado y detalles del caso",
+        "Categoría, descripción y pruebas en un solo lugar",
+        "Historial del caso para que nada se revise dos veces, ni se pase por alto"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Apelaciones",
+      "title": "Un proceso estructurado para las apelaciones de baneo",
+      "description": "Las apelaciones siguen el mismo patrón de revisión que las solicitudes y los reportes, así que tu equipo de moderación tiene un único proceso coherente en lugar de tres distintos.",
+      "bullets": [
+        "Cada apelación enviada con su estado actual",
+        "Revisión del personal y decisión final, registradas",
+        "Información del revisor e historial de actividad",
+        "Un rastro claro si alguna vez se cuestiona una decisión"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Personal",
+      "title": "Responsabilidad y visibilidad para tu equipo",
+      "description": "Ve quién está activo, quién lleva la carga de trabajo y qué se ha hecho — sin automatizar las decisiones en sí. El personal sigue tomando cada decisión; el panel solo hace visible su trabajo.",
+      "bullets": [
+        "Actividad del personal y carga de trabajo actual",
+        "Qué ha reclamado y resuelto cada miembro del personal",
+        "«Última revisión por» en cada elemento",
+        "Un historial de actividad completo, no solo la última acción"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Estadísticas",
+    "title": "Ve cómo le va realmente a tu equipo",
+    "description": "Una lectura clara de la carga de trabajo y los tiempos, para que no tengas que adivinar si los reportes se están acumulando.",
+    "pendingApplications": "Solicitudes pendientes",
+    "openReports": "Reportes abiertos",
+    "openAppeals": "Apelaciones abiertas",
+    "applicationsProcessed30d": "Solicitudes procesadas (30d)",
+    "reportsResolved30d": "Reportes resueltos (30d)",
+    "avgResolutionTime": "Tiempo medio de resolución",
+    "activeStaff": "Personal activo",
+    "statusBreakdown": "Desglose de estados de solicitudes",
+    "last30Days": "Últimos 30 días"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "El panel",
+    "title": "Lo que tu personal realmente ve",
+    "description": "Una interfaz única y coherente para cada parte del flujo de trabajo. La pestaña de Solicitudes de abajo está en vivo — haz clic en un solicitante, reclama el caso, e intenta aprobarlo o rechazarlo.",
+    "tabsAria": "Secciones del panel",
+    "applications": "Solicitudes",
+    "reports": "Reportes",
+    "appeals": "Apelaciones",
+    "staff": "Personal",
+    "analytics": "Estadísticas",
+    "activity": "Actividad"
+  },
+  "sandbox": {
+    "clickHint": "Haz clic en un solicitante para abrir su caso.",
+    "resetDemo": "Reiniciar demo",
+    "demoReset": "Demo reiniciada",
+    "backToList": "Volver a la lista",
+    "claimedByLabel": "Reclamado por:",
+    "unclaimed": "Sin reclamar",
+    "claim": "Reclamar",
+    "unclaim": "Liberar",
+    "claimed": "Reclamado",
+    "youDemo": "Tú (demo)",
+    "approve": "Aprobar",
+    "deny": "Rechazar",
+    "requestInfo": "Pedir información",
+    "applicationAccepted": "Solicitud aceptada",
+    "applicationRejected": "Solicitud rechazada",
+    "markedNeedsInfo": "Marcada como necesitando más información",
+    "applicant": "Solicitante",
+    "status": "Estado",
+    "claimedBy": "Reclamado por",
+    "submitted": "Enviado",
+    "age": "Edad",
+    "timezone": "Zona horaria",
+    "weeklyHours": "Horas semanales",
+    "previousExperience": "Experiencia previa"
+  },
+  "mockups": {
+    "unassigned": "Sin asignar",
+    "priorityHigh": "Prioridad alta",
+    "priorityMedium": "Prioridad media",
+    "priorityLow": "Prioridad baja",
+    "reportedPrefix": "Reportado:",
+    "appellant": "Apelante",
+    "originalBanReason": "Motivo original del baneo",
+    "reviewer": "Revisor",
+    "claimedCount": "Reclamados",
+    "resolved7d": "Resueltos (7d)",
+    "lastActive": "Última actividad"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "reviewing": "En revisión",
+    "needs_info": "Requiere información",
+    "accepted": "Aceptada",
+    "approved": "Aprobado",
+    "resolved": "Resuelto",
+    "rejected": "Rechazada",
+    "denied": "Denegado",
+    "dismissed": "Desestimado"
+  },
+  "customization": {
+    "eyebrow": "Personalización",
+    "title": "Configurado para adaptarse a tu comunidad, no al revés",
+    "description": "Hay opciones personalizadas disponibles según los requisitos de tu comunidad — no todas las personalizaciones mostradas aquí existen por defecto, pero se pueden desarrollar para tu configuración.",
+    "options": [
+      { "title": "Marca personalizada", "description": "El nombre, los colores y el logo de tu comunidad en todo el panel." },
+      { "title": "Preguntas de solicitud personalizadas", "description": "Pregunta lo que realmente importa para los roles de tu personal." },
+      { "title": "Flujos de trabajo personalizados", "description": "Se ajusta al proceso de revisión que tu equipo ya utiliza." },
+      { "title": "Roles y permisos de personal personalizados", "description": "Controla quién puede revisar, decidir o solo ver." },
+      { "title": "Páginas personalizadas", "description": "Añade páginas específicas para las necesidades de tu comunidad." },
+      { "title": "Integraciones personalizadas", "description": "Conecta las herramientas con las que tu equipo ya cuenta." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Creado para comunidades de Discord",
+    "title": "Diseñado para funcionar junto a tu servidor de Discord",
+    "description": "El panel funciona en la web, por separado de Discord, y está diseñado específicamente para equipos que gestionan una comunidad de Discord.",
+    "steps": [
+      { "title": "Conecta tu servidor de Discord", "description": "Vincula tu comunidad para que el panel sepa quién es quién." },
+      { "title": "Configura tu comunidad", "description": "Define tus preguntas de solicitud, roles de personal y flujo de trabajo." },
+      { "title": "El personal accede al panel", "description": "Tu equipo inicia sesión para revisar, decidir y hacer seguimiento de todo." },
+      { "title": "Gestiona solicitudes, reportes y apelaciones", "description": "Todo pasa a partir de aquí por un único proceso coherente." }
+    ],
+    "disclaimer": "Esta página de marketing es solo una vitrina del producto y no se conecta a Discord por sí misma. No está afiliada, respaldada ni patrocinada por Discord Inc."
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Planes sencillos, configurados por comunidad",
+    "note": "Los precios son ilustrativos por ahora — cada plan se configura individualmente. No se procesan pagos en este sitio.",
+    "mostPopular": "Más popular",
+    "cta": "Solicitar una demo",
+    "tiers": [
+      {
+        "name": "Comunidad",
+        "blurb": "Para comunidades más pequeñas que se están organizando.",
+        "features": ["Solicitudes", "Reportes", "Apelaciones", "Panel de personal", "Integración con Discord", "Estadísticas básicas"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "Para comunidades más grandes con un equipo de personal activo.",
+        "features": ["Todo lo de Comunidad", "Estadísticas avanzadas", "Marca personalizada", "Configuración adicional", "Flujos de trabajo más avanzados"]
+      },
+      {
+        "name": "Personalizado",
+        "blurb": "Para comunidades que necesitan algo específico.",
+        "features": ["Flujos de trabajo personalizados", "Páginas personalizadas", "Marca personalizada", "Integraciones personalizadas", "Desarrollo a medida"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Opcional",
+    "title": "Asistencia de IA, si y cuando la quieras",
+    "description": "El producto principal es el panel y el flujo de revisión, gestionado por tu personal. Algunas comunidades también añaden funciones opcionales asistidas por IA — como un resumen escrito de una solicitud para ayudar a un revisor a leerla más rápido. La IA nunca toma la decisión final, nunca banea a nadie automáticamente, y no está incluida por defecto en todos los planes. Tu personal sigue siendo responsable de cada decisión."
+  },
+  "finalCta": {
+    "title": "¿Listo para simplificar la gestión de tu comunidad?",
+    "description": "Descubre cómo el panel podría adaptarse al flujo de moderación de tu comunidad.",
+    "cta": "Solicitar una demo"
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas comunes",
+    "items": [
+      {
+        "question": "¿Qué es esta plataforma?",
+        "answer": "GuildDesk es un panel web que ayuda al personal de comunidades de Discord a gestionar solicitudes de moderador, reportes de miembros, apelaciones de baneo y actividad del personal en un solo lugar organizado, en lugar de canales de Discord y DMs dispersos."
+      },
+      {
+        "question": "¿Para quién es?",
+        "answer": "Para cualquier comunidad de Discord con un equipo de personal — servidores de roleplay, comunidades de juegos, comunidades de creadores, y más. Está diseñado para ser lo bastante genérico como para adaptarse a distintos tipos de comunidades, sin estar ligado a un juego o servidor específico."
+      },
+      {
+        "question": "¿Funciona con Discord?",
+        "answer": "Sí. Está diseñado para funcionar junto a tu servidor de Discord: los miembros interactúan a través de un panel web, y el personal revisa y gestiona todo desde ahí. Este sitio de marketing en sí no se conecta a Discord — es una vista previa del producto."
+      },
+      {
+        "question": "¿Puedo personalizar el panel?",
+        "answer": "Hay opciones personalizadas disponibles según los requisitos de tu comunidad — cosas como la marca, las preguntas de solicitud, los flujos de trabajo y los roles del personal. No todas las personalizaciones existen de fábrica; desarrollamos lo que tu comunidad realmente necesita."
+      },
+      {
+        "question": "¿Puedo usarlo para mi comunidad de juegos?",
+        "answer": "Sí. Aunque el concepto empezó con el proceso de solicitud de moderador de un servidor de roleplay, el flujo de trabajo subyacente — solicitudes, reportes, apelaciones, responsabilidad del personal — también se aplica a Roblox, FiveM, Minecraft y otras comunidades de juegos o creadores."
+      },
+      {
+        "question": "¿Puedo solicitar funciones personalizadas?",
+        "answer": "Sí — cuéntanos lo que tu comunidad necesita y te diremos qué es posible."
+      },
+      {
+        "question": "¿Necesito instalar algo?",
+        "answer": "No. El panel funciona en el navegador. No hay nada que instalar en tu servidor ni en los dispositivos de tus miembros."
+      },
+      {
+        "question": "¿Es obligatoria la IA?",
+        "answer": "No. El producto principal es el panel y el flujo de gestión, gestionado por tu personal humano. Las funciones asistidas por IA son una capacidad opcional y adicional — no algo incluido en todos los planes, y nunca un sustituto del personal a la hora de tomar las decisiones reales."
+      },
+      {
+        "question": "¿Cómo funciona el alojamiento?",
+        "answer": "El panel se aloja por ti — sin gestión de servidor de tu parte. Los detalles se acuerdan por comunidad durante la configuración."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "No afiliado, respaldado ni patrocinado por Discord Inc.",
+    "previewNote": "Este es un sitio de vista previa — las pantallas del panel mostradas son maquetas ilustrativas con datos de demostración."
+  },
+  "demoDataNote": "Todos los nombres, usuarios y estadísticas mostrados son datos de demostración solo con fines ilustrativos."
+}

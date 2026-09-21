@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Discord Community Management, Simplified.",
+    "description": "GuildDesk is a Discord community management platform for applications, reports, appeals, and staff activity — built for gaming, roleplay, and creator communities."
+  },
+  "nav": {
+    "features": "Features",
+    "dashboard": "Dashboard",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "requestDemo": "Request a Demo",
+    "getInTouch": "Get in Touch",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Primary",
+    "primaryMobile": "Primary mobile"
+  },
+  "hero": {
+    "badge": "Now onboarding pilot communities",
+    "titlePrefix": "Discord Community",
+    "titleHighlight": "Management",
+    "titleSuffix": ", Simplified.",
+    "subTagline": "Manage applications, reports, appeals, and staff activity from one powerful dashboard.",
+    "requestDemo": "Request a Demo",
+    "seeDashboard": "See the Dashboard",
+    "builtFor": "Built for",
+    "communities": [
+      "Roblox communities",
+      "ERLC communities",
+      "FiveM communities",
+      "Minecraft communities",
+      "Gaming communities",
+      "Creator communities"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Why not just use Discord and spreadsheets?",
+    "title": "Because it stops working the moment your team grows",
+    "description": "Discord channels and spreadsheets are free, and they work for a while. Here's what usually changes once a community moves to a dedicated dashboard.",
+    "beforeLabel": "Before",
+    "before": [
+      "Applications sitting in a Google Form or spreadsheet nobody checks regularly",
+      "Reports buried in a #mod-reports Discord channel, scrolling forever to find one",
+      "Ban appeals handled over Discord DMs with no record of what was decided",
+      "No way to tell who's actually reviewing what",
+      "Re-explaining the same case to a teammate because nothing's written down"
+    ],
+    "afterLabel": "After",
+    "after": [
+      "Every application in one queue, sorted by status",
+      "Reports tracked with a category, priority, and assigned staff member",
+      "Appeals reviewed with a clear decision and reviewer on record",
+      "Claim a case so staff don't duplicate work",
+      "A full activity history on every case, staff-visible at a glance"
+    ]
+  },
+  "features": {
+    "eyebrow": "What it does",
+    "title": "Everything your staff team needs, in one place",
+    "description": "One dashboard for the four things that usually live scattered across Discord channels, DMs, and spreadsheets.",
+    "recentActivity": "Recent activity",
+    "applications": {
+      "eyebrow": "Applications",
+      "title": "Application management, without the spreadsheet",
+      "description": "Members apply through a guided form, and staff review everything from one queue — no more digging through a Google Form and a separate spreadsheet.",
+      "bullets": [
+        "Pending applications with applicant info at a glance",
+        "Custom application questions per community",
+        "Claim an application so staff don't double up on review",
+        "Approve, deny, or request more info in a couple of clicks",
+        "Reviewer attribution and full review history on every application"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Reports",
+      "title": "Reports that don't get lost in a chat log",
+      "description": "Member reports come in structured, get a status and a priority, and stay assigned to a staff member — instead of staff having to scroll back through channels to piece together what happened.",
+      "bullets": [
+        "Every open report with its status and priority",
+        "Assigned staff member and case details",
+        "Category, description, and evidence in one place",
+        "Case history so nothing gets reviewed twice — or missed"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Appeals",
+      "title": "A structured workflow for ban appeals",
+      "description": "Appeals follow the same review pattern as applications and reports, so your moderation team has one consistent process instead of three different ones.",
+      "bullets": [
+        "Every appeal submission with its current status",
+        "Staff review and final decision, recorded",
+        "Reviewer information and activity history",
+        "A clear paper trail if a decision is ever questioned"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Staff",
+      "title": "Accountability and visibility for your staff team",
+      "description": "See who's active, who's carrying the workload, and what's been done — without automating the actual decisions. Staff still make every call; the dashboard just makes their work visible.",
+      "bullets": [
+        "Staff activity and current workload",
+        "What each staff member has claimed and resolved",
+        "\"Last reviewed by\" on every item",
+        "A full activity history, not just the latest action"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Analytics",
+    "title": "See how your team is actually doing",
+    "description": "A clear read on workload and turnaround, so you're not guessing whether reports are piling up.",
+    "pendingApplications": "Pending applications",
+    "openReports": "Open reports",
+    "openAppeals": "Open appeals",
+    "applicationsProcessed30d": "Applications processed (30d)",
+    "reportsResolved30d": "Reports resolved (30d)",
+    "avgResolutionTime": "Avg. resolution time",
+    "activeStaff": "Active staff",
+    "statusBreakdown": "Application status breakdown",
+    "last30Days": "Last 30 days"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "The dashboard",
+    "title": "What your staff actually see",
+    "description": "A single, consistent interface for every part of the workflow. The Applications tab below is live — click an applicant, claim the case, and try approving or denying it.",
+    "tabsAria": "Dashboard sections",
+    "applications": "Applications",
+    "reports": "Reports",
+    "appeals": "Appeals",
+    "staff": "Staff",
+    "analytics": "Analytics",
+    "activity": "Activity"
+  },
+  "sandbox": {
+    "clickHint": "Click an applicant to open their case.",
+    "resetDemo": "Reset demo",
+    "demoReset": "Demo reset",
+    "backToList": "Back to list",
+    "claimedByLabel": "Claimed by:",
+    "unclaimed": "Unclaimed",
+    "claim": "Claim",
+    "unclaim": "Unclaim",
+    "claimed": "Claimed",
+    "youDemo": "You (demo)",
+    "approve": "Approve",
+    "deny": "Deny",
+    "requestInfo": "Request info",
+    "applicationAccepted": "Application accepted",
+    "applicationRejected": "Application rejected",
+    "markedNeedsInfo": "Marked as needing more info",
+    "applicant": "Applicant",
+    "status": "Status",
+    "claimedBy": "Claimed by",
+    "submitted": "Submitted",
+    "age": "Age",
+    "timezone": "Timezone",
+    "weeklyHours": "Weekly hours",
+    "previousExperience": "Previous experience"
+  },
+  "mockups": {
+    "unassigned": "Unassigned",
+    "priorityHigh": "High priority",
+    "priorityMedium": "Medium priority",
+    "priorityLow": "Low priority",
+    "reportedPrefix": "Reported:",
+    "appellant": "Appellant",
+    "originalBanReason": "Original ban reason",
+    "reviewer": "Reviewer",
+    "claimedCount": "Claimed",
+    "resolved7d": "Resolved (7d)",
+    "lastActive": "Last active"
+  },
+  "status": {
+    "pending": "Pending",
+    "reviewing": "Reviewing",
+    "needs_info": "Needs Info",
+    "accepted": "Accepted",
+    "approved": "Approved",
+    "resolved": "Resolved",
+    "rejected": "Rejected",
+    "denied": "Denied",
+    "dismissed": "Dismissed"
+  },
+  "customization": {
+    "eyebrow": "Customisation",
+    "title": "Set up to fit your community, not the other way around",
+    "description": "Custom options are available depending on your community's requirements — not every customisation shown here exists by default, but it can be built out for your setup.",
+    "options": [
+      { "title": "Custom branding", "description": "Your community's name, colours, and logo across the dashboard." },
+      { "title": "Custom application questions", "description": "Ask what actually matters for your community's staff roles." },
+      { "title": "Custom workflows", "description": "Match the review process your team already uses." },
+      { "title": "Custom staff roles & permissions", "description": "Control who can review, decide, or just view." },
+      { "title": "Custom pages", "description": "Add pages specific to your community's needs." },
+      { "title": "Custom integrations", "description": "Connect the tools your team already relies on." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Built for Discord communities",
+    "title": "Designed to work alongside your Discord server",
+    "description": "The dashboard runs on the web, separate from Discord itself, and is built specifically for teams that manage a Discord community.",
+    "steps": [
+      { "title": "Connect your Discord server", "description": "Link your community so the dashboard knows who's who." },
+      { "title": "Configure your community", "description": "Set your application questions, staff roles, and workflow." },
+      { "title": "Staff access the dashboard", "description": "Your team signs in to review, decide, and track everything." },
+      { "title": "Manage applications, reports & appeals", "description": "Everything flows through one consistent process from here." }
+    ],
+    "disclaimer": "This marketing page is a product showcase only and does not itself connect to Discord. It is not affiliated with, endorsed by, or sponsored by Discord Inc."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple plans, set up per community",
+    "note": "Pricing is illustrative for now — every plan is set up individually. No payments are processed on this site.",
+    "mostPopular": "Most popular",
+    "cta": "Request a Demo",
+    "tiers": [
+      {
+        "name": "Community",
+        "blurb": "For smaller communities getting organised.",
+        "features": ["Applications", "Reports", "Appeals", "Staff dashboard", "Discord integration", "Basic analytics"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "For larger communities with an active staff team.",
+        "features": ["Everything in Community", "Advanced analytics", "Custom branding", "Additional configuration", "More advanced workflows"]
+      },
+      {
+        "name": "Custom",
+        "blurb": "For communities that need something specific.",
+        "features": ["Custom workflows", "Custom pages", "Custom branding", "Custom integrations", "Custom development"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Optional",
+    "title": "AI assistance, if and when you want it",
+    "description": "The core product is the dashboard and the review workflow, run by your staff. Some communities also add optional AI-assisted features — like a written summary of an application to help a reviewer skim faster. AI never makes the final call, never bans anyone automatically, and isn't included by default on every plan. Your staff stay responsible for every decision."
+  },
+  "finalCta": {
+    "title": "Ready to simplify your community management?",
+    "description": "See how the dashboard could fit your community's moderation workflow.",
+    "cta": "Request a Demo"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "items": [
+      {
+        "question": "What is this platform?",
+        "answer": "GuildDesk is a web dashboard that helps Discord community staff manage moderator applications, member reports, ban appeals, and staff activity in one organised place instead of scattered Discord channels and DMs."
+      },
+      {
+        "question": "Who is it for?",
+        "answer": "Any Discord community with a staff team — roleplay servers, gaming communities, creator communities, and more. It's built to be generic enough to fit different kinds of communities, not tied to one specific game or server."
+      },
+      {
+        "question": "Does it work with Discord?",
+        "answer": "Yes. It's designed to sit alongside your Discord server: members interact through a web dashboard, and staff review and manage everything from there. This marketing site itself doesn't connect to Discord — it's a preview of the product."
+      },
+      {
+        "question": "Can I customise the dashboard?",
+        "answer": "Custom options are available depending on your community's requirements — things like branding, application questions, workflows, and staff roles. Not every customisation exists out of the box; we build out what your community actually needs."
+      },
+      {
+        "question": "Can I use it for my gaming community?",
+        "answer": "Yes. While the concept started with a roleplay server's moderator application process, the underlying workflow — applications, reports, appeals, staff accountability — applies to Roblox, FiveM, Minecraft, and other gaming or creator communities too."
+      },
+      {
+        "question": "Can I request custom features?",
+        "answer": "Yes — reach out with what your community needs and we'll let you know what's possible."
+      },
+      {
+        "question": "Do I need to install anything?",
+        "answer": "No. The dashboard runs in the browser. There's nothing to install on your server or your members' devices."
+      },
+      {
+        "question": "Is AI required?",
+        "answer": "No. The core product is the dashboard and management workflow, run by your human staff. AI-assisted features are an optional, additional capability — not something every plan includes, and never a replacement for staff making the actual decisions."
+      },
+      {
+        "question": "How does hosting work?",
+        "answer": "The dashboard is hosted for you — no server management on your end. Details are worked out per community during setup."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "Not affiliated with, endorsed by, or sponsored by Discord Inc.",
+    "previewNote": "This is a preview site — dashboard screens shown throughout are illustrative mockups with demo data."
+  },
+  "demoDataNote": "All names, users, and statistics shown are demo data for illustration only."
+}

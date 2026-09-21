@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Discord 社区管理，化繁为简。",
+    "description": "GuildDesk 是一款 Discord 社区管理平台，用于管理申请、举报、申诉和员工活动 —— 专为游戏、角色扮演和创作者社区打造。"
+  },
+  "nav": {
+    "features": "功能",
+    "dashboard": "仪表盘",
+    "pricing": "价格",
+    "faq": "常见问题",
+    "requestDemo": "申请演示",
+    "getInTouch": "联系我们",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "primary": "主导航",
+    "primaryMobile": "移动端主导航"
+  },
+  "hero": {
+    "badge": "现正接受试点社区加入",
+    "titlePrefix": "Discord 社区",
+    "titleHighlight": "管理",
+    "titleSuffix": "，化繁为简。",
+    "subTagline": "在一个强大的仪表盘中管理申请、举报、申诉和员工活动。",
+    "requestDemo": "申请演示",
+    "seeDashboard": "查看仪表盘",
+    "builtFor": "适用于",
+    "communities": [
+      "Roblox 社区",
+      "ERLC 社区",
+      "FiveM 社区",
+      "Minecraft 社区",
+      "游戏社区",
+      "创作者社区"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "为什么不直接用 Discord 和表格呢？",
+    "title": "因为团队一旦壮大，这种方式就不再管用",
+    "description": "Discord 频道和表格是免费的，一开始也能用。以下是社区转向专用仪表盘后通常会发生的变化。",
+    "beforeLabel": "使用前",
+    "before": [
+      "申请堆积在没人定期查看的 Google 表单或电子表格中",
+      "举报被淹没在 #mod-reports 频道里，翻找一条记录要滚动半天",
+      "封禁申诉通过 Discord 私信处理，没有任何决定记录",
+      "无法知道到底是谁在审核什么",
+      "因为没有任何书面记录，同一个案例要向队友重复解释"
+    ],
+    "afterLabel": "使用后",
+    "after": [
+      "所有申请集中在一个队列中，按状态排序",
+      "举报会记录分类、优先级和指派的工作人员",
+      "申诉审核后有明确的决定和审核人记录",
+      "认领案例，避免工作人员重复处理",
+      "每个案例都有完整的活动记录，工作人员一目了然"
+    ]
+  },
+  "features": {
+    "eyebrow": "核心功能",
+    "title": "工作人员团队所需的一切，尽在一处",
+    "description": "把通常分散在 Discord 频道、私信和表格中的四件事，整合到一个仪表盘中。",
+    "recentActivity": "最近活动",
+    "applications": {
+      "eyebrow": "申请",
+      "title": "无需表格的申请管理",
+      "description": "成员通过引导式表单提交申请，工作人员在一个队列中审核所有内容 —— 再也不用在 Google 表单和单独的表格之间来回翻找。",
+      "bullets": [
+        "一目了然地查看待处理申请及申请人信息",
+        "按社区自定义申请问题",
+        "认领申请，避免工作人员重复审核",
+        "只需几次点击即可批准、拒绝或要求补充信息",
+        "每份申请都有审核人记录和完整审核历史"
+      ]
+    },
+    "reports": {
+      "eyebrow": "举报",
+      "title": "不会淹没在聊天记录中的举报",
+      "description": "成员举报以结构化的方式提交，会获得状态和优先级，并持续指派给工作人员 —— 不再需要翻遍频道记录来拼凑事情经过。",
+      "bullets": [
+        "查看每一条未处理举报的状态和优先级",
+        "指派的工作人员和案例详情",
+        "分类、描述和证据集中在一处",
+        "案例历史记录，避免重复审核或遗漏"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "申诉",
+      "title": "封禁申诉的结构化流程",
+      "description": "申诉遵循与申请和举报相同的审核模式，让你的管理团队使用一套统一流程，而不是三套不同的流程。",
+      "bullets": [
+        "查看每一份申诉及其当前状态",
+        "记录工作人员的审核和最终决定",
+        "审核人信息和活动记录",
+        "如决定受到质疑，可提供清晰的记录"
+      ]
+    },
+    "staff": {
+      "eyebrow": "工作人员",
+      "title": "为团队提供责任归属和可见性",
+      "description": "了解谁在活跃、谁承担了工作量，以及完成了哪些工作 —— 但不会将实际决策自动化。每一项决定仍由工作人员做出；仪表盘只是让他们的工作变得可见。",
+      "bullets": [
+        "工作人员活动和当前工作量",
+        "每位工作人员认领和处理的内容",
+        "每个条目都显示“最后审核人”",
+        "完整的活动记录，而不仅仅是最新操作"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "数据分析",
+    "title": "了解团队的实际表现",
+    "description": "清晰查看工作量和处理时长，不用再猜测举报是否在堆积。",
+    "pendingApplications": "待处理申请",
+    "openReports": "未处理举报",
+    "openAppeals": "未处理申诉",
+    "applicationsProcessed30d": "已处理申请（30天）",
+    "reportsResolved30d": "已解决举报（30天）",
+    "avgResolutionTime": "平均处理时长",
+    "activeStaff": "活跃工作人员",
+    "statusBreakdown": "申请状态分布",
+    "last30Days": "最近30天"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "仪表盘",
+    "title": "工作人员实际看到的画面",
+    "description": "为工作流程的每个环节提供统一、一致的界面。下方的“申请”标签页是可实际操作的 —— 点击一位申请人、认领案例，试试批准或拒绝。",
+    "tabsAria": "仪表盘板块",
+    "applications": "申请",
+    "reports": "举报",
+    "appeals": "申诉",
+    "staff": "工作人员",
+    "analytics": "数据分析",
+    "activity": "活动"
+  },
+  "sandbox": {
+    "clickHint": "点击一位申请人以打开其案例。",
+    "resetDemo": "重置演示",
+    "demoReset": "演示已重置",
+    "backToList": "返回列表",
+    "claimedByLabel": "认领人：",
+    "unclaimed": "未认领",
+    "claim": "认领",
+    "unclaim": "取消认领",
+    "claimed": "已认领",
+    "youDemo": "你（演示）",
+    "approve": "批准",
+    "deny": "拒绝",
+    "requestInfo": "要求补充信息",
+    "applicationAccepted": "申请已批准",
+    "applicationRejected": "申请已拒绝",
+    "markedNeedsInfo": "已标记为需要更多信息",
+    "applicant": "申请人",
+    "status": "状态",
+    "claimedBy": "认领人",
+    "submitted": "提交时间",
+    "age": "年龄",
+    "timezone": "时区",
+    "weeklyHours": "每周时长",
+    "previousExperience": "以往经验"
+  },
+  "mockups": {
+    "unassigned": "未指派",
+    "priorityHigh": "高优先级",
+    "priorityMedium": "中优先级",
+    "priorityLow": "低优先级",
+    "reportedPrefix": "被举报：",
+    "appellant": "申诉人",
+    "originalBanReason": "原始封禁原因",
+    "reviewer": "审核人",
+    "claimedCount": "已认领",
+    "resolved7d": "已解决（7天）",
+    "lastActive": "最后活跃"
+  },
+  "status": {
+    "pending": "待处理",
+    "reviewing": "审核中",
+    "needs_info": "需要更多信息",
+    "accepted": "已通过",
+    "approved": "已批准",
+    "resolved": "已解决",
+    "rejected": "已拒绝",
+    "denied": "已驳回",
+    "dismissed": "已驳回"
+  },
+  "customization": {
+    "eyebrow": "自定义",
+    "title": "为适配你的社区而设置，而不是反过来",
+    "description": "根据社区需求提供自定义选项 —— 这里展示的自定义功能并非默认全部具备，但都可以为你的配置进行开发。",
+    "options": [
+      { "title": "自定义品牌", "description": "在整个仪表盘中展示你社区的名称、配色和标志。" },
+      { "title": "自定义申请问题", "description": "询问对你社区工作人员角色真正重要的问题。" },
+      { "title": "自定义工作流程", "description": "匹配团队已经在使用的审核流程。" },
+      { "title": "自定义工作人员角色与权限", "description": "控制谁可以审核、决定，或仅查看。" },
+      { "title": "自定义页面", "description": "添加专为你社区需求打造的页面。" },
+      { "title": "自定义集成", "description": "连接团队已经依赖的工具。" }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "专为 Discord 社区打造",
+    "title": "设计用于与你的 Discord 服务器协同工作",
+    "description": "仪表盘在网页上独立于 Discord 运行，专为管理 Discord 社区的团队而设计。",
+    "steps": [
+      { "title": "连接你的 Discord 服务器", "description": "关联你的社区，让仪表盘识别成员身份。" },
+      { "title": "配置你的社区", "description": "设置申请问题、工作人员角色和工作流程。" },
+      { "title": "工作人员访问仪表盘", "description": "你的团队登录后即可审核、决定并跟踪一切。" },
+      { "title": "管理申请、举报与申诉", "description": "从此以后，一切都通过统一的流程进行处理。" }
+    ],
+    "disclaimer": "本营销页面仅作为产品展示，本身并不与 Discord 连接。与 Discord Inc. 无关联、非其认可或赞助。"
+  },
+  "pricing": {
+    "eyebrow": "价格",
+    "title": "简单的套餐，按社区单独设置",
+    "note": "目前价格仅供参考 —— 每个套餐都是单独设置的。本网站不处理任何付款。",
+    "mostPopular": "最受欢迎",
+    "cta": "申请演示",
+    "tiers": [
+      {
+        "name": "社区版",
+        "blurb": "适合正在建立体系的小型社区。",
+        "features": ["申请", "举报", "申诉", "工作人员仪表盘", "Discord 集成", "基础数据分析"]
+      },
+      {
+        "name": "专业版",
+        "blurb": "适合拥有活跃工作人员团队的大型社区。",
+        "features": ["包含社区版所有功能", "高级数据分析", "自定义品牌", "额外配置", "更高级的工作流程"]
+      },
+      {
+        "name": "定制版",
+        "blurb": "适合有特定需求的社区。",
+        "features": ["自定义工作流程", "自定义页面", "自定义品牌", "自定义集成", "定制开发"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "可选",
+    "title": "按需使用的 AI 辅助功能",
+    "description": "核心产品是由你的工作人员运营的仪表盘和审核工作流程。部分社区还会添加可选的 AI 辅助功能 —— 例如为申请生成书面摘要，帮助审核人员更快浏览。AI 绝不会做出最终决定、绝不会自动封禁任何人，也不是每个套餐默认包含的功能。每一项决定的责任仍由你的工作人员承担。"
+  },
+  "finalCta": {
+    "title": "准备好简化你的社区管理了吗？",
+    "description": "看看仪表盘如何适配你社区的管理工作流程。",
+    "cta": "申请演示"
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "这是什么平台？",
+        "answer": "GuildDesk 是一款网页仪表盘，帮助 Discord 社区工作人员在一个有序的地方集中管理管理员申请、成员举报、封禁申诉和工作人员活动，而不是分散在各个 Discord 频道和私信中。"
+      },
+      {
+        "question": "它适合谁使用？",
+        "answer": "适合任何拥有工作人员团队的 Discord 社区 —— 角色扮演服务器、游戏社区、创作者社区等等。它被设计得足够通用，可以适配不同类型的社区，而不局限于某个特定游戏或服务器。"
+      },
+      {
+        "question": "它能与 Discord 配合使用吗？",
+        "answer": "可以。它被设计为与你的 Discord 服务器协同工作：成员通过网页仪表盘进行互动，工作人员从那里审核和管理一切。这个营销网站本身并不连接 Discord —— 它只是产品的预览。"
+      },
+      {
+        "question": "我可以自定义仪表盘吗？",
+        "answer": "可以根据你社区的需求提供自定义选项 —— 比如品牌、申请问题、工作流程和工作人员角色。并非所有自定义功能都开箱即用；我们会开发你的社区实际需要的功能。"
+      },
+      {
+        "question": "我可以将它用于我的游戏社区吗？",
+        "answer": "可以。虽然这个理念最初源自角色扮演服务器的管理员申请流程，但其底层工作流程 —— 申请、举报、申诉、工作人员问责 —— 同样适用于 Roblox、FiveM、Minecraft 以及其他游戏或创作者社区。"
+      },
+      {
+        "question": "我可以申请定制功能吗？",
+        "answer": "可以 —— 告诉我们你的社区需要什么，我们会告知你哪些是可行的。"
+      },
+      {
+        "question": "我需要安装什么吗？",
+        "answer": "不需要。仪表盘在浏览器中运行，你的服务器或成员的设备上无需安装任何东西。"
+      },
+      {
+        "question": "是否必须使用 AI？",
+        "answer": "不需要。核心产品是由你的工作人员运营的仪表盘和管理工作流程。AI 辅助功能是一项可选的附加能力 —— 并非每个套餐都包含，也绝不会取代工作人员做出实际决定。"
+      },
+      {
+        "question": "托管是如何运作的？",
+        "answer": "仪表盘由我们为你托管 —— 你无需管理服务器。具体细节会在设置过程中针对每个社区单独确定。"
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "与 Discord Inc. 无关联、非其认可或赞助。",
+    "previewNote": "这是一个预览网站 —— 所展示的仪表盘画面均为使用演示数据制作的示意性模型。"
+  },
+  "demoDataNote": "所展示的所有姓名、用户和统计数据均为演示数据，仅供参考。"
+}

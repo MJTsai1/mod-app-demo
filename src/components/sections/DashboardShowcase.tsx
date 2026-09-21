@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { SectionHeading, BrowserFrame, DemoDataNote, Reveal } from "@/components/ui";
 import { Sandbox } from "@/components/Sandbox";
 import {
@@ -11,34 +12,36 @@ import {
   ActivityMockup,
 } from "@/components/mockups";
 
-const tabs = [
-  { id: "applications", label: "Applications", frameTitle: "guilddesk.app/admin/dashboard", node: <Sandbox /> },
-  { id: "reports", label: "Reports", frameTitle: "guilddesk.app/admin/reports", node: <ReportsMockup /> },
-  { id: "appeals", label: "Appeals", frameTitle: "guilddesk.app/admin/appeals", node: <AppealsMockup /> },
-  { id: "staff", label: "Staff", frameTitle: "guilddesk.app/admin/staff", node: <StaffMockup /> },
-  { id: "analytics", label: "Analytics", frameTitle: "guilddesk.app/admin/stats", node: <AnalyticsMockup /> },
-  { id: "activity", label: "Activity", frameTitle: "guilddesk.app/admin/activity", node: <ActivityMockup /> },
-] as const;
-
 export function DashboardShowcase() {
+  const t = useTranslations("dashboardShowcase");
+
+  const tabs = [
+    { id: "applications", label: t("applications"), frameTitle: "guilddesk.app/admin/dashboard", node: <Sandbox /> },
+    { id: "reports", label: t("reports"), frameTitle: "guilddesk.app/admin/reports", node: <ReportsMockup /> },
+    { id: "appeals", label: t("appeals"), frameTitle: "guilddesk.app/admin/appeals", node: <AppealsMockup /> },
+    { id: "staff", label: t("staff"), frameTitle: "guilddesk.app/admin/staff", node: <StaffMockup /> },
+    { id: "analytics", label: t("analytics"), frameTitle: "guilddesk.app/admin/stats", node: <AnalyticsMockup /> },
+    { id: "activity", label: t("activity"), frameTitle: "guilddesk.app/admin/activity", node: <ActivityMockup /> },
+  ] as const;
+
   const [active, setActive] = useState<(typeof tabs)[number]["id"]>("applications");
-  const current = tabs.find((t) => t.id === active) ?? tabs[0];
+  const current = tabs.find((tab) => tab.id === active) ?? tabs[0];
 
   return (
     <section id="dashboard" className="px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <SectionHeading
-            eyebrow="The dashboard"
-            title="What your staff actually see"
-            description="A single, consistent interface for every part of the workflow. The Applications tab below is live — click an applicant, claim the case, and try approving or denying it."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
           />
         </Reveal>
 
         <Reveal delay={100}>
           <div
             role="tablist"
-            aria-label="Dashboard sections"
+            aria-label={t("tabsAria")}
             className="mt-10 flex flex-wrap justify-center gap-2"
           >
             {tabs.map((tab) => (

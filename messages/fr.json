@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "La gestion de communauté Discord, simplifiée.",
+    "description": "GuildDesk est une plateforme de gestion de communauté Discord pour les candidatures, signalements, appels et l'activité du personnel — conçue pour les communautés de jeu, de roleplay et de créateurs."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "dashboard": "Tableau de bord",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "requestDemo": "Demander une démo",
+    "getInTouch": "Nous contacter",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "primary": "Principal",
+    "primaryMobile": "Principal mobile"
+  },
+  "hero": {
+    "badge": "Intégration pilote en cours",
+    "titlePrefix": "La gestion de communauté",
+    "titleHighlight": "Discord",
+    "titleSuffix": ", simplifiée.",
+    "subTagline": "Gérez les candidatures, signalements, appels et l'activité du personnel depuis un seul tableau de bord puissant.",
+    "requestDemo": "Demander une démo",
+    "seeDashboard": "Voir le tableau de bord",
+    "builtFor": "Conçu pour",
+    "communities": [
+      "Communautés Roblox",
+      "Communautés ERLC",
+      "Communautés FiveM",
+      "Communautés Minecraft",
+      "Communautés de jeu",
+      "Communautés de créateurs"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Pourquoi ne pas simplement utiliser Discord et des tableurs ?",
+    "title": "Parce que ça cesse de fonctionner dès que votre équipe grandit",
+    "description": "Les canaux Discord et les tableurs sont gratuits, et ça marche un temps. Voici ce qui change généralement lorsqu'une communauté passe à un tableau de bord dédié.",
+    "beforeLabel": "Avant",
+    "before": [
+      "Des candidatures qui traînent dans un Google Form ou un tableur que personne ne vérifie régulièrement",
+      "Des signalements enfouis dans un canal Discord #mod-reports, avec un défilement sans fin pour en retrouver un",
+      "Des appels de bannissement traités par messages privés Discord, sans trace de la décision prise",
+      "Aucun moyen de savoir qui examine réellement quoi",
+      "Devoir réexpliquer le même dossier à un collègue parce que rien n'est écrit"
+    ],
+    "afterLabel": "Après",
+    "after": [
+      "Chaque candidature dans une seule file, triée par statut",
+      "Des signalements suivis avec une catégorie, une priorité et un membre du personnel assigné",
+      "Des appels examinés avec une décision claire et un examinateur enregistré",
+      "La prise en charge d'un dossier pour éviter que le personnel ne fasse doublon",
+      "Un historique d'activité complet sur chaque dossier, visible par le personnel en un coup d'œil"
+    ]
+  },
+  "features": {
+    "eyebrow": "Ce que ça fait",
+    "title": "Tout ce dont votre équipe a besoin, au même endroit",
+    "description": "Un seul tableau de bord pour les quatre choses qui vivent habituellement éparpillées entre canaux Discord, messages privés et tableurs.",
+    "recentActivity": "Activité récente",
+    "applications": {
+      "eyebrow": "Candidatures",
+      "title": "Gestion des candidatures, sans le tableur",
+      "description": "Les membres postulent via un formulaire guidé, et le personnel examine tout depuis une seule file — fini de fouiller entre un Google Form et un tableur séparé.",
+      "bullets": [
+        "Candidatures en attente avec les infos du candidat en un coup d'œil",
+        "Questions de candidature personnalisées par communauté",
+        "Prise en charge d'une candidature pour éviter les doublons d'examen",
+        "Approuver, refuser ou demander plus d'infos en quelques clics",
+        "Attribution de l'examinateur et historique complet sur chaque candidature"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Signalements",
+      "title": "Des signalements qui ne se perdent pas dans un fil de discussion",
+      "description": "Les signalements de membres arrivent de façon structurée, reçoivent un statut et une priorité, et restent assignés à un membre du personnel — plutôt que de devoir remonter les canaux pour reconstituer ce qui s'est passé.",
+      "bullets": [
+        "Chaque signalement ouvert avec son statut et sa priorité",
+        "Membre du personnel assigné et détails du dossier",
+        "Catégorie, description et preuves au même endroit",
+        "Historique du dossier pour éviter les doublons ou les oublis"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Appels",
+      "title": "Un processus structuré pour les appels de bannissement",
+      "description": "Les appels suivent le même schéma d'examen que les candidatures et signalements, pour que votre équipe de modération n'ait qu'un seul processus cohérent au lieu de trois différents.",
+      "bullets": [
+        "Chaque appel soumis avec son statut actuel",
+        "Examen du personnel et décision finale, enregistrés",
+        "Informations sur l'examinateur et historique d'activité",
+        "Une trace claire en cas de remise en question d'une décision"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Personnel",
+      "title": "Responsabilité et visibilité pour votre équipe",
+      "description": "Voyez qui est actif, qui porte la charge de travail et ce qui a été fait — sans automatiser les décisions elles-mêmes. Le personnel prend toujours chaque décision ; le tableau de bord rend simplement son travail visible.",
+      "bullets": [
+        "Activité du personnel et charge de travail actuelle",
+        "Ce que chaque membre du personnel a pris en charge et résolu",
+        "« Dernier examen par » sur chaque élément",
+        "Un historique d'activité complet, pas seulement la dernière action"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Statistiques",
+    "title": "Voyez comment votre équipe s'en sort réellement",
+    "description": "Une vision claire de la charge de travail et des délais, pour ne plus deviner si les signalements s'accumulent.",
+    "pendingApplications": "Candidatures en attente",
+    "openReports": "Signalements ouverts",
+    "openAppeals": "Appels ouverts",
+    "applicationsProcessed30d": "Candidatures traitées (30j)",
+    "reportsResolved30d": "Signalements résolus (30j)",
+    "avgResolutionTime": "Temps de résolution moyen",
+    "activeStaff": "Personnel actif",
+    "statusBreakdown": "Répartition des statuts de candidature",
+    "last30Days": "30 derniers jours"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "Le tableau de bord",
+    "title": "Ce que votre personnel voit réellement",
+    "description": "Une interface unique et cohérente pour chaque partie du flux de travail. L'onglet Candidatures ci-dessous est en direct — cliquez sur un candidat, prenez le dossier en charge, et essayez de l'approuver ou de le refuser.",
+    "tabsAria": "Sections du tableau de bord",
+    "applications": "Candidatures",
+    "reports": "Signalements",
+    "appeals": "Appels",
+    "staff": "Personnel",
+    "analytics": "Statistiques",
+    "activity": "Activité"
+  },
+  "sandbox": {
+    "clickHint": "Cliquez sur un candidat pour ouvrir son dossier.",
+    "resetDemo": "Réinitialiser la démo",
+    "demoReset": "Démo réinitialisée",
+    "backToList": "Retour à la liste",
+    "claimedByLabel": "Pris en charge par :",
+    "unclaimed": "Non pris en charge",
+    "claim": "Prendre en charge",
+    "unclaim": "Libérer",
+    "claimed": "Pris en charge",
+    "youDemo": "Vous (démo)",
+    "approve": "Approuver",
+    "deny": "Refuser",
+    "requestInfo": "Demander des infos",
+    "applicationAccepted": "Candidature acceptée",
+    "applicationRejected": "Candidature refusée",
+    "markedNeedsInfo": "Marquée comme nécessitant plus d'infos",
+    "applicant": "Candidat",
+    "status": "Statut",
+    "claimedBy": "Pris en charge par",
+    "submitted": "Soumis",
+    "age": "Âge",
+    "timezone": "Fuseau horaire",
+    "weeklyHours": "Heures par semaine",
+    "previousExperience": "Expérience précédente"
+  },
+  "mockups": {
+    "unassigned": "Non assigné",
+    "priorityHigh": "Priorité haute",
+    "priorityMedium": "Priorité moyenne",
+    "priorityLow": "Priorité basse",
+    "reportedPrefix": "Signalé :",
+    "appellant": "Appelant",
+    "originalBanReason": "Motif de bannissement initial",
+    "reviewer": "Examinateur",
+    "claimedCount": "Pris en charge",
+    "resolved7d": "Résolus (7j)",
+    "lastActive": "Dernière activité"
+  },
+  "status": {
+    "pending": "En attente",
+    "reviewing": "En cours d'examen",
+    "needs_info": "Infos requises",
+    "accepted": "Acceptée",
+    "approved": "Approuvé",
+    "resolved": "Résolu",
+    "rejected": "Rejetée",
+    "denied": "Refusé",
+    "dismissed": "Classé sans suite"
+  },
+  "customization": {
+    "eyebrow": "Personnalisation",
+    "title": "Configuré pour s'adapter à votre communauté, pas l'inverse",
+    "description": "Des options personnalisées sont disponibles selon les besoins de votre communauté — toutes les personnalisations présentées ici n'existent pas par défaut, mais peuvent être développées pour votre configuration.",
+    "options": [
+      { "title": "Image de marque personnalisée", "description": "Le nom, les couleurs et le logo de votre communauté sur tout le tableau de bord." },
+      { "title": "Questions de candidature personnalisées", "description": "Posez ce qui compte vraiment pour les rôles de votre personnel." },
+      { "title": "Flux de travail personnalisés", "description": "Correspond au processus d'examen que votre équipe utilise déjà." },
+      { "title": "Rôles et permissions du personnel personnalisés", "description": "Contrôlez qui peut examiner, décider ou simplement consulter." },
+      { "title": "Pages personnalisées", "description": "Ajoutez des pages spécifiques aux besoins de votre communauté." },
+      { "title": "Intégrations personnalisées", "description": "Connectez les outils sur lesquels votre équipe compte déjà." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Conçu pour les communautés Discord",
+    "title": "Pensé pour fonctionner aux côtés de votre serveur Discord",
+    "description": "Le tableau de bord fonctionne sur le web, séparément de Discord lui-même, et est conçu spécifiquement pour les équipes qui gèrent une communauté Discord.",
+    "steps": [
+      { "title": "Connectez votre serveur Discord", "description": "Reliez votre communauté pour que le tableau de bord sache qui est qui." },
+      { "title": "Configurez votre communauté", "description": "Définissez vos questions de candidature, rôles du personnel et flux de travail." },
+      { "title": "Le personnel accède au tableau de bord", "description": "Votre équipe se connecte pour examiner, décider et tout suivre." },
+      { "title": "Gérez candidatures, signalements et appels", "description": "Tout passe désormais par un processus unique et cohérent." }
+    ],
+    "disclaimer": "Cette page marketing est une simple vitrine du produit et ne se connecte pas elle-même à Discord. Elle n'est ni affiliée, ni approuvée, ni sponsorisée par Discord Inc."
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Des offres simples, configurées par communauté",
+    "note": "Les tarifs sont illustratifs pour le moment — chaque offre est configurée individuellement. Aucun paiement n'est traité sur ce site.",
+    "mostPopular": "Le plus populaire",
+    "cta": "Demander une démo",
+    "tiers": [
+      {
+        "name": "Communauté",
+        "blurb": "Pour les petites communautés qui s'organisent.",
+        "features": ["Candidatures", "Signalements", "Appels", "Tableau de bord du personnel", "Intégration Discord", "Statistiques de base"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "Pour les grandes communautés avec une équipe active.",
+        "features": ["Tout ce qui est inclus dans Communauté", "Statistiques avancées", "Image de marque personnalisée", "Configuration supplémentaire", "Flux de travail plus avancés"]
+      },
+      {
+        "name": "Sur mesure",
+        "blurb": "Pour les communautés qui ont besoin de quelque chose de spécifique.",
+        "features": ["Flux de travail personnalisés", "Pages personnalisées", "Image de marque personnalisée", "Intégrations personnalisées", "Développement sur mesure"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Optionnel",
+    "title": "Une assistance IA, si et quand vous le souhaitez",
+    "description": "Le produit principal est le tableau de bord et le flux de travail d'examen, géré par votre personnel. Certaines communautés ajoutent aussi des fonctionnalités optionnelles assistées par IA — comme un résumé écrit d'une candidature pour aider un examinateur à parcourir plus vite. L'IA ne prend jamais la décision finale, ne bannit jamais personne automatiquement, et n'est pas incluse par défaut dans toutes les offres. Votre personnel reste responsable de chaque décision."
+  },
+  "finalCta": {
+    "title": "Prêt à simplifier la gestion de votre communauté ?",
+    "description": "Découvrez comment le tableau de bord pourrait s'adapter au flux de modération de votre communauté.",
+    "cta": "Demander une démo"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Qu'est-ce que cette plateforme ?",
+        "answer": "GuildDesk est un tableau de bord web qui aide le personnel des communautés Discord à gérer les candidatures de modérateur, les signalements de membres, les appels de bannissement et l'activité du personnel dans un seul endroit organisé, au lieu de canaux Discord et de messages privés éparpillés."
+      },
+      {
+        "question": "À qui s'adresse-t-elle ?",
+        "answer": "À toute communauté Discord avec une équipe — serveurs de roleplay, communautés de jeu, communautés de créateurs, et plus encore. Elle est conçue pour être assez générique pour s'adapter à différents types de communautés, sans être liée à un jeu ou un serveur spécifique."
+      },
+      {
+        "question": "Fonctionne-t-elle avec Discord ?",
+        "answer": "Oui. Elle est conçue pour fonctionner aux côtés de votre serveur Discord : les membres interagissent via un tableau de bord web, et le personnel examine et gère tout depuis là. Ce site marketing lui-même ne se connecte pas à Discord — c'est un aperçu du produit."
+      },
+      {
+        "question": "Puis-je personnaliser le tableau de bord ?",
+        "answer": "Des options personnalisées sont disponibles selon les besoins de votre communauté — comme l'image de marque, les questions de candidature, les flux de travail et les rôles du personnel. Toutes les personnalisations n'existent pas d'office ; nous développons ce dont votre communauté a réellement besoin."
+      },
+      {
+        "question": "Puis-je l'utiliser pour ma communauté de jeu ?",
+        "answer": "Oui. Bien que le concept soit né du processus de candidature de modérateur d'un serveur de roleplay, le flux sous-jacent — candidatures, signalements, appels, responsabilité du personnel — s'applique aussi à Roblox, FiveM, Minecraft et d'autres communautés de jeu ou de créateurs."
+      },
+      {
+        "question": "Puis-je demander des fonctionnalités personnalisées ?",
+        "answer": "Oui — contactez-nous avec les besoins de votre communauté et nous vous dirons ce qui est possible."
+      },
+      {
+        "question": "Dois-je installer quelque chose ?",
+        "answer": "Non. Le tableau de bord fonctionne dans le navigateur. Il n'y a rien à installer sur votre serveur ou les appareils de vos membres."
+      },
+      {
+        "question": "L'IA est-elle obligatoire ?",
+        "answer": "Non. Le produit principal est le tableau de bord et le flux de gestion, géré par votre personnel humain. Les fonctionnalités assistées par IA sont une capacité optionnelle et additionnelle — pas quelque chose d'inclus dans toutes les offres, et jamais un remplacement du personnel pour prendre les décisions réelles."
+      },
+      {
+        "question": "Comment fonctionne l'hébergement ?",
+        "answer": "Le tableau de bord est hébergé pour vous — aucune gestion de serveur de votre côté. Les détails sont définis par communauté lors de la mise en place."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "Non affilié, approuvé ou sponsorisé par Discord Inc.",
+    "previewNote": "Ceci est un site de prévisualisation — les écrans de tableau de bord présentés sont des maquettes illustratives avec des données de démonstration."
+  },
+  "demoDataNote": "Tous les noms, utilisateurs et statistiques affichés sont des données de démonstration à titre illustratif uniquement."
+}

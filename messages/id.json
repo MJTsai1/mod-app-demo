@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Manajemen Komunitas Discord, Disederhanakan.",
+    "description": "GuildDesk adalah platform manajemen komunitas Discord untuk aplikasi, laporan, banding, dan aktivitas staf — dibuat untuk komunitas gaming, roleplay, dan kreator."
+  },
+  "nav": {
+    "features": "Fitur",
+    "dashboard": "Dashboard",
+    "pricing": "Harga",
+    "faq": "FAQ",
+    "requestDemo": "Minta Demo",
+    "getInTouch": "Hubungi Kami",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "primary": "Utama",
+    "primaryMobile": "Utama seluler"
+  },
+  "hero": {
+    "badge": "Kini menerima komunitas percontohan",
+    "titlePrefix": "Manajemen Komunitas",
+    "titleHighlight": "Discord",
+    "titleSuffix": ", Disederhanakan.",
+    "subTagline": "Kelola aplikasi, laporan, banding, dan aktivitas staf dari satu dashboard yang canggih.",
+    "requestDemo": "Minta Demo",
+    "seeDashboard": "Lihat Dashboard",
+    "builtFor": "Dibuat untuk",
+    "communities": [
+      "Komunitas Roblox",
+      "Komunitas ERLC",
+      "Komunitas FiveM",
+      "Komunitas Minecraft",
+      "Komunitas gaming",
+      "Komunitas kreator"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Kenapa tidak pakai Discord dan spreadsheet saja?",
+    "title": "Karena itu berhenti berfungsi begitu tim Anda berkembang",
+    "description": "Kanal Discord dan spreadsheet gratis, dan berfungsi untuk sementara waktu. Berikut yang biasanya berubah setelah komunitas beralih ke dashboard khusus.",
+    "beforeLabel": "Sebelum",
+    "before": [
+      "Aplikasi menumpuk di Google Form atau spreadsheet yang jarang diperiksa",
+      "Laporan terkubur di kanal Discord #mod-reports, scroll tanpa henti untuk menemukannya",
+      "Banding banned ditangani lewat DM Discord tanpa catatan keputusan apa pun",
+      "Tidak ada cara untuk tahu siapa yang benar-benar meninjau apa",
+      "Menjelaskan ulang kasus yang sama ke rekan tim karena tidak ada yang tertulis"
+    ],
+    "afterLabel": "Sesudah",
+    "after": [
+      "Setiap aplikasi dalam satu antrean, diurutkan berdasarkan status",
+      "Laporan dilacak dengan kategori, prioritas, dan staf yang ditugaskan",
+      "Banding ditinjau dengan keputusan yang jelas dan peninjau tercatat",
+      "Ambil alih kasus agar staf tidak mengerjakan hal yang sama dua kali",
+      "Riwayat aktivitas lengkap di setiap kasus, terlihat oleh staf sekilas"
+    ]
+  },
+  "features": {
+    "eyebrow": "Apa yang dilakukannya",
+    "title": "Semua yang tim staf Anda butuhkan, di satu tempat",
+    "description": "Satu dashboard untuk empat hal yang biasanya tersebar di kanal Discord, DM, dan spreadsheet.",
+    "recentActivity": "Aktivitas terbaru",
+    "applications": {
+      "eyebrow": "Aplikasi",
+      "title": "Manajemen aplikasi, tanpa spreadsheet",
+      "description": "Anggota mendaftar lewat formulir terpandu, dan staf meninjau semuanya dari satu antrean — tidak perlu lagi menggali Google Form dan spreadsheet terpisah.",
+      "bullets": [
+        "Aplikasi yang tertunda dengan info pelamar sekilas",
+        "Pertanyaan aplikasi kustom per komunitas",
+        "Ambil alih aplikasi agar staf tidak meninjau ganda",
+        "Setujui, tolak, atau minta info lebih lanjut hanya dengan beberapa klik",
+        "Atribusi peninjau dan riwayat tinjauan lengkap di setiap aplikasi"
+      ]
+    },
+    "reports": {
+      "eyebrow": "Laporan",
+      "title": "Laporan yang tidak hilang di log obrolan",
+      "description": "Laporan anggota masuk secara terstruktur, mendapat status dan prioritas, dan tetap ditugaskan ke seorang staf — alih-alih staf harus scroll kembali lewat kanal untuk merekonstruksi apa yang terjadi.",
+      "bullets": [
+        "Setiap laporan terbuka dengan status dan prioritasnya",
+        "Staf yang ditugaskan dan detail kasus",
+        "Kategori, deskripsi, dan bukti di satu tempat",
+        "Riwayat kasus agar tidak ada yang ditinjau dua kali — atau terlewat"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "Banding",
+      "title": "Alur kerja terstruktur untuk banding banned",
+      "description": "Banding mengikuti pola tinjauan yang sama seperti aplikasi dan laporan, sehingga tim moderasi Anda punya satu proses konsisten, bukan tiga proses berbeda.",
+      "bullets": [
+        "Setiap pengajuan banding dengan status terkininya",
+        "Tinjauan staf dan keputusan akhir, tercatat",
+        "Informasi peninjau dan riwayat aktivitas",
+        "Jejak yang jelas jika suatu keputusan pernah dipertanyakan"
+      ]
+    },
+    "staff": {
+      "eyebrow": "Staf",
+      "title": "Akuntabilitas dan visibilitas untuk tim staf Anda",
+      "description": "Lihat siapa yang aktif, siapa yang menanggung beban kerja, dan apa yang telah dilakukan — tanpa mengotomatiskan keputusan sesungguhnya. Staf tetap membuat setiap keputusan; dashboard hanya membuat pekerjaan mereka terlihat.",
+      "bullets": [
+        "Aktivitas staf dan beban kerja saat ini",
+        "Apa yang telah diambil alih dan diselesaikan setiap staf",
+        "\"Terakhir ditinjau oleh\" di setiap item",
+        "Riwayat aktivitas lengkap, bukan hanya tindakan terakhir"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "Analitik",
+    "title": "Lihat bagaimana kinerja tim Anda sebenarnya",
+    "description": "Gambaran jelas tentang beban kerja dan waktu penyelesaian, jadi Anda tidak perlu menerka apakah laporan menumpuk.",
+    "pendingApplications": "Aplikasi tertunda",
+    "openReports": "Laporan terbuka",
+    "openAppeals": "Banding terbuka",
+    "applicationsProcessed30d": "Aplikasi diproses (30h)",
+    "reportsResolved30d": "Laporan diselesaikan (30h)",
+    "avgResolutionTime": "Rata-rata waktu penyelesaian",
+    "activeStaff": "Staf aktif",
+    "statusBreakdown": "Rincian status aplikasi",
+    "last30Days": "30 hari terakhir"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "Dashboard-nya",
+    "title": "Apa yang benar-benar dilihat staf Anda",
+    "description": "Antarmuka tunggal yang konsisten untuk setiap bagian alur kerja. Tab Aplikasi di bawah ini bersifat langsung — klik pelamar, ambil alih kasusnya, dan coba menyetujui atau menolaknya.",
+    "tabsAria": "Bagian dashboard",
+    "applications": "Aplikasi",
+    "reports": "Laporan",
+    "appeals": "Banding",
+    "staff": "Staf",
+    "analytics": "Analitik",
+    "activity": "Aktivitas"
+  },
+  "sandbox": {
+    "clickHint": "Klik seorang pelamar untuk membuka kasusnya.",
+    "resetDemo": "Setel ulang demo",
+    "demoReset": "Demo disetel ulang",
+    "backToList": "Kembali ke daftar",
+    "claimedByLabel": "Diambil alih oleh:",
+    "unclaimed": "Belum diambil alih",
+    "claim": "Ambil alih",
+    "unclaim": "Lepaskan",
+    "claimed": "Diambil alih",
+    "youDemo": "Anda (demo)",
+    "approve": "Setujui",
+    "deny": "Tolak",
+    "requestInfo": "Minta info",
+    "applicationAccepted": "Aplikasi diterima",
+    "applicationRejected": "Aplikasi ditolak",
+    "markedNeedsInfo": "Ditandai perlu info lebih lanjut",
+    "applicant": "Pelamar",
+    "status": "Status",
+    "claimedBy": "Diambil alih oleh",
+    "submitted": "Dikirim",
+    "age": "Usia",
+    "timezone": "Zona waktu",
+    "weeklyHours": "Jam per minggu",
+    "previousExperience": "Pengalaman sebelumnya"
+  },
+  "mockups": {
+    "unassigned": "Belum ditugaskan",
+    "priorityHigh": "Prioritas tinggi",
+    "priorityMedium": "Prioritas sedang",
+    "priorityLow": "Prioritas rendah",
+    "reportedPrefix": "Dilaporkan:",
+    "appellant": "Pemohon banding",
+    "originalBanReason": "Alasan banned awal",
+    "reviewer": "Peninjau",
+    "claimedCount": "Diambil alih",
+    "resolved7d": "Diselesaikan (7h)",
+    "lastActive": "Terakhir aktif"
+  },
+  "status": {
+    "pending": "Tertunda",
+    "reviewing": "Ditinjau",
+    "needs_info": "Butuh Info",
+    "accepted": "Diterima",
+    "approved": "Disetujui",
+    "resolved": "Selesai",
+    "rejected": "Ditolak",
+    "denied": "Ditolak",
+    "dismissed": "Ditutup"
+  },
+  "customization": {
+    "eyebrow": "Kustomisasi",
+    "title": "Disiapkan agar cocok dengan komunitas Anda, bukan sebaliknya",
+    "description": "Opsi kustom tersedia tergantung kebutuhan komunitas Anda — tidak semua kustomisasi yang ditampilkan di sini ada secara default, tetapi bisa dibuat untuk pengaturan Anda.",
+    "options": [
+      { "title": "Branding kustom", "description": "Nama, warna, dan logo komunitas Anda di seluruh dashboard." },
+      { "title": "Pertanyaan aplikasi kustom", "description": "Tanyakan hal yang benar-benar penting untuk peran staf komunitas Anda." },
+      { "title": "Alur kerja kustom", "description": "Sesuaikan dengan proses tinjauan yang sudah digunakan tim Anda." },
+      { "title": "Peran & izin staf kustom", "description": "Kontrol siapa yang bisa meninjau, memutuskan, atau hanya melihat." },
+      { "title": "Halaman kustom", "description": "Tambahkan halaman khusus untuk kebutuhan komunitas Anda." },
+      { "title": "Integrasi kustom", "description": "Hubungkan alat yang sudah diandalkan tim Anda." }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "Dibuat untuk komunitas Discord",
+    "title": "Dirancang untuk bekerja berdampingan dengan server Discord Anda",
+    "description": "Dashboard berjalan di web, terpisah dari Discord itu sendiri, dan dibuat khusus untuk tim yang mengelola komunitas Discord.",
+    "steps": [
+      { "title": "Hubungkan server Discord Anda", "description": "Tautkan komunitas Anda agar dashboard tahu siapa itu siapa." },
+      { "title": "Konfigurasikan komunitas Anda", "description": "Atur pertanyaan aplikasi, peran staf, dan alur kerja Anda." },
+      { "title": "Staf mengakses dashboard", "description": "Tim Anda masuk untuk meninjau, memutuskan, dan melacak semuanya." },
+      { "title": "Kelola aplikasi, laporan & banding", "description": "Semuanya berjalan melalui satu proses konsisten mulai dari sini." }
+    ],
+    "disclaimer": "Halaman marketing ini hanya etalase produk dan tidak terhubung ke Discord itu sendiri. Tidak berafiliasi, didukung, atau disponsori oleh Discord Inc."
+  },
+  "pricing": {
+    "eyebrow": "Harga",
+    "title": "Paket sederhana, disiapkan per komunitas",
+    "note": "Harga bersifat ilustratif untuk saat ini — setiap paket disiapkan secara individual. Tidak ada pembayaran yang diproses di situs ini.",
+    "mostPopular": "Paling populer",
+    "cta": "Minta Demo",
+    "tiers": [
+      {
+        "name": "Komunitas",
+        "blurb": "Untuk komunitas lebih kecil yang sedang mengatur diri.",
+        "features": ["Aplikasi", "Laporan", "Banding", "Dashboard staf", "Integrasi Discord", "Analitik dasar"]
+      },
+      {
+        "name": "Pro",
+        "blurb": "Untuk komunitas lebih besar dengan tim staf yang aktif.",
+        "features": ["Semua yang ada di Komunitas", "Analitik lanjutan", "Branding kustom", "Konfigurasi tambahan", "Alur kerja yang lebih canggih"]
+      },
+      {
+        "name": "Kustom",
+        "blurb": "Untuk komunitas yang butuh sesuatu yang spesifik.",
+        "features": ["Alur kerja kustom", "Halaman kustom", "Branding kustom", "Integrasi kustom", "Pengembangan kustom"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "Opsional",
+    "title": "Bantuan AI, jika dan saat Anda menginginkannya",
+    "description": "Produk inti adalah dashboard dan alur kerja tinjauan, dijalankan oleh staf Anda. Beberapa komunitas juga menambahkan fitur berbantuan AI opsional — seperti ringkasan tertulis dari sebuah aplikasi untuk membantu peninjau membaca lebih cepat. AI tidak pernah membuat keputusan akhir, tidak pernah mem-banned siapa pun secara otomatis, dan tidak disertakan secara default di setiap paket. Staf Anda tetap bertanggung jawab atas setiap keputusan."
+  },
+  "finalCta": {
+    "title": "Siap menyederhanakan manajemen komunitas Anda?",
+    "description": "Lihat bagaimana dashboard bisa cocok dengan alur moderasi komunitas Anda.",
+    "cta": "Minta Demo"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "question": "Apa itu platform ini?",
+        "answer": "GuildDesk adalah dashboard web yang membantu staf komunitas Discord mengelola aplikasi moderator, laporan anggota, banding banned, dan aktivitas staf di satu tempat yang terorganisir, alih-alih tersebar di kanal Discord dan DM."
+      },
+      {
+        "question": "Untuk siapa ini?",
+        "answer": "Untuk komunitas Discord mana pun yang memiliki tim staf — server roleplay, komunitas gaming, komunitas kreator, dan lainnya. Dibuat cukup generik untuk cocok dengan berbagai jenis komunitas, tidak terikat pada satu game atau server tertentu."
+      },
+      {
+        "question": "Apakah ini bekerja dengan Discord?",
+        "answer": "Ya. Dirancang untuk berjalan berdampingan dengan server Discord Anda: anggota berinteraksi lewat dashboard web, dan staf meninjau serta mengelola semuanya dari sana. Situs marketing ini sendiri tidak terhubung ke Discord — ini adalah pratinjau produk."
+      },
+      {
+        "question": "Bisakah saya menyesuaikan dashboard-nya?",
+        "answer": "Opsi kustom tersedia tergantung kebutuhan komunitas Anda — seperti branding, pertanyaan aplikasi, alur kerja, dan peran staf. Tidak semua kustomisasi tersedia langsung; kami membangun apa yang benar-benar dibutuhkan komunitas Anda."
+      },
+      {
+        "question": "Bisakah saya menggunakannya untuk komunitas gaming saya?",
+        "answer": "Ya. Meski konsepnya berawal dari proses aplikasi moderator server roleplay, alur kerja dasarnya — aplikasi, laporan, banding, akuntabilitas staf — juga berlaku untuk Roblox, FiveM, Minecraft, dan komunitas gaming atau kreator lainnya."
+      },
+      {
+        "question": "Bisakah saya meminta fitur kustom?",
+        "answer": "Ya — hubungi kami dengan kebutuhan komunitas Anda dan kami akan memberi tahu apa yang memungkinkan."
+      },
+      {
+        "question": "Apakah saya perlu menginstal sesuatu?",
+        "answer": "Tidak. Dashboard berjalan di browser. Tidak ada yang perlu diinstal di server Anda atau perangkat anggota Anda."
+      },
+      {
+        "question": "Apakah AI wajib digunakan?",
+        "answer": "Tidak. Produk inti adalah dashboard dan alur kerja manajemen, dijalankan oleh staf manusia Anda. Fitur berbantuan AI adalah kemampuan tambahan opsional — bukan sesuatu yang disertakan di setiap paket, dan tidak pernah menggantikan staf dalam membuat keputusan sesungguhnya."
+      },
+      {
+        "question": "Bagaimana cara kerja hosting-nya?",
+        "answer": "Dashboard di-hosting untuk Anda — tanpa manajemen server di pihak Anda. Detailnya diatur per komunitas selama penyiapan."
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "Tidak berafiliasi, didukung, atau disponsori oleh Discord Inc.",
+    "previewNote": "Ini adalah situs pratinjau — tampilan dashboard yang ditampilkan adalah mockup ilustratif dengan data demo."
+  },
+  "demoDataNote": "Semua nama, pengguna, dan statistik yang ditampilkan adalah data demo hanya untuk ilustrasi."
+}

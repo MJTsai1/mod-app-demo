@@ -1,24 +1,28 @@
+import { getTranslations } from "next-intl/server";
 import { SectionHeading, Reveal, DemoDataNote } from "@/components/ui";
 import { mockStats, mockStatusBreakdown } from "@/lib/mockData";
 
-const cards = [
-  { label: "Pending applications", value: mockStats.pendingApplications },
-  { label: "Open reports", value: mockStats.openReports },
-  { label: "Open appeals", value: mockStats.openAppeals },
-  { label: "Applications processed (30d)", value: mockStats.applicationsProcessed30d },
-  { label: "Reports resolved (30d)", value: mockStats.reportsResolved30d },
-  { label: "Avg. resolution time", value: mockStats.avgResolutionTime },
-];
+export async function AnalyticsSection() {
+  const t = await getTranslations("analytics");
+  const tStatus = await getTranslations("status");
 
-export function AnalyticsSection() {
+  const cards = [
+    { label: t("pendingApplications"), value: mockStats.pendingApplications },
+    { label: t("openReports"), value: mockStats.openReports },
+    { label: t("openAppeals"), value: mockStats.openAppeals },
+    { label: t("applicationsProcessed30d"), value: mockStats.applicationsProcessed30d },
+    { label: t("reportsResolved30d"), value: mockStats.reportsResolved30d },
+    { label: t("avgResolutionTime"), value: mockStats.avgResolutionTime },
+  ];
+
   return (
     <section className="px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <SectionHeading
-            eyebrow="Analytics"
-            title="See how your team is actually doing"
-            description="A clear read on workload and turnaround, so you're not guessing whether reports are piling up."
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
           />
         </Reveal>
 
@@ -36,13 +40,13 @@ export function AnalyticsSection() {
         <Reveal delay={150}>
           <div className="card mt-6 p-6 sm:p-8">
             <p className="mb-4 text-sm font-semibold text-[var(--color-text)]">
-              Application status breakdown
+              {t("statusBreakdown")}
             </p>
             <div className="space-y-4">
               {mockStatusBreakdown.map((row) => (
-                <div key={row.label}>
+                <div key={row.status}>
                   <div className="mb-1 flex items-center justify-between text-xs">
-                    <span className="text-[var(--color-text-muted)]">{row.label}</span>
+                    <span className="text-[var(--color-text-muted)]">{tStatus(row.status)}</span>
                     <span className="text-[var(--color-text-subtle)]">
                       {row.value} ({row.percent}%)
                     </span>

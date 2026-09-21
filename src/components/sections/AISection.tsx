@@ -1,6 +1,8 @@
+import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/components/ui";
 
-export function AISection() {
+export async function AISection() {
+  const t = await getTranslations("ai");
   return (
     <section className="px-4 py-12 sm:px-6">
       <div className="mx-auto max-w-4xl">
@@ -23,17 +25,13 @@ export function AISection() {
             </div>
             <div>
               <span className="text-xs font-semibold uppercase tracking-widest text-[var(--color-accent-soft)]">
-                Optional
+                {t("badge")}
               </span>
               <h3 className="mt-1 text-xl font-bold text-[var(--color-text)]">
-                AI assistance, if and when you want it
+                {t("title")}
               </h3>
               <p className="mt-2 max-w-2xl text-sm text-[var(--color-text-muted)]">
-                The core product is the dashboard and the review workflow, run by your staff. Some
-                communities also add optional AI-assisted features — like a written summary of an
-                application to help a reviewer skim faster. AI never makes the final call, never
-                bans anyone automatically, and isn&apos;t included by default on every plan. Your
-                staff stay responsible for every decision.
+                {t("description")}
               </p>
             </div>
           </div>

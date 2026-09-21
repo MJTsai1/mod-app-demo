@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "Discord 社群管理，化繁為簡。",
+    "description": "GuildDesk 係一個 Discord 社群管理平台，用嚟管理申請、舉報、上訴同埋職員活動 —— 專為遊戲、角色扮演同創作者社群而設。"
+  },
+  "nav": {
+    "features": "功能",
+    "dashboard": "控制台",
+    "pricing": "收費",
+    "faq": "常見問題",
+    "requestDemo": "申請試玩",
+    "getInTouch": "聯絡我哋",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單",
+    "primary": "主導航",
+    "primaryMobile": "手機版主導航"
+  },
+  "hero": {
+    "badge": "現正接受試點社群加入",
+    "titlePrefix": "Discord 社群",
+    "titleHighlight": "管理",
+    "titleSuffix": "，化繁為簡。",
+    "subTagline": "喺一個強大嘅控制台管理申請、舉報、上訴同埋職員活動。",
+    "requestDemo": "申請試玩",
+    "seeDashboard": "睇下控制台",
+    "builtFor": "適用於",
+    "communities": [
+      "Roblox 社群",
+      "ERLC 社群",
+      "FiveM 社群",
+      "Minecraft 社群",
+      "遊戲社群",
+      "創作者社群"
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "點解唔淨係用 Discord 同試算表？",
+    "title": "因為團隊一大就會唔夠用",
+    "description": "Discord 頻道同試算表免費，一開始都用得。以下係社群轉用專用控制台之後通常會有嘅改變。",
+    "beforeLabel": "之前",
+    "before": [
+      "申請堆積喺冇人定期check嘅 Google 表格或試算表入面",
+      "舉報埋喺 #mod-reports 頻道，搵一條要一直scroll",
+      "封禁上訴用 Discord 私訊處理，冇任何決定紀錄",
+      "冇辦法知道實際上邊個負責審核咩",
+      "因為冇文字紀錄，要不斷向隊友重覆解釋同一個個案"
+    ],
+    "afterLabel": "之後",
+    "after": [
+      "所有申請集中喺一個列表，按狀態排序",
+      "舉報會記低分類、優先次序同負責職員",
+      "上訴審核後有清晰決定同審核人紀錄",
+      "認領個案，避免職員重覆處理",
+      "每個個案都有完整活動紀錄，職員一目了然"
+    ]
+  },
+  "features": {
+    "eyebrow": "功能一覽",
+    "title": "職員團隊所需嘅一切，集中喺一處",
+    "description": "將通常分散喺 Discord 頻道、私訊同試算表嘅四樣嘢，整合入一個控制台。",
+    "recentActivity": "最近活動",
+    "applications": {
+      "eyebrow": "申請",
+      "title": "唔使用試算表嘅申請管理",
+      "description": "會員透過引導式表格申請，職員喺一個列表審核晒所有嘢 —— 唔使再喺 Google 表格同另一個試算表之間搵嚟搵去。",
+      "bullets": [
+        "一眼睇晒待處理申請同申請人資料",
+        "各社群可自訂申請問題",
+        "認領申請，避免職員重覆審核",
+        "幾下click就可以批准、拒絕或要求補充資料",
+        "每份申請都有審核人紀錄同完整審核歷史"
+      ]
+    },
+    "reports": {
+      "eyebrow": "舉報",
+      "title": "唔會喺對話紀錄入面石沉大海嘅舉報",
+      "description": "會員舉報以有系統嘅方式提交，會有狀態同優先次序，並持續指派俾職員 —— 唔使職員翻晒頻道紀錄先拼湊到事情經過。",
+      "bullets": [
+        "睇晒每個未處理舉報嘅狀態同優先次序",
+        "負責職員同個案詳情",
+        "分類、描述同證據集中一處",
+        "個案歷史紀錄，避免重覆審核或遺漏"
+      ]
+    },
+    "appeals": {
+      "eyebrow": "上訴",
+      "title": "封禁上訴嘅系統化流程",
+      "description": "上訴同申請、舉報用相同嘅審核模式，等你嘅管理團隊用一套一致嘅流程，而唔係三套唔同嘅流程。",
+      "bullets": [
+        "睇晒每份提交嘅上訴同其目前狀態",
+        "記錄職員審核同最終決定",
+        "審核人資料同活動歷史",
+        "如果決定受質疑，有清晰紀錄可查"
+      ]
+    },
+    "staff": {
+      "eyebrow": "職員",
+      "title": "為職員團隊提供問責同透明度",
+      "description": "睇到邊個活躍、邊個負責咗最多工作量、同埋完成咗啲咩 —— 但唔會將實際決定自動化。每個決定都仍然由職員作出；控制台只係令佢哋嘅工作變得清晰可見。",
+      "bullets": [
+        "職員活動同目前工作量",
+        "每位職員認領同解決咗嘅項目",
+        "每個項目都顯示「最後審核人」",
+        "完整活動歷史，唔止最新操作"
+      ]
+    }
+  },
+  "analytics": {
+    "eyebrow": "數據分析",
+    "title": "睇下你嘅團隊實際做得點",
+    "description": "清晰睇到工作量同處理速度，唔使再估舉報有冇喺度累積緊。",
+    "pendingApplications": "待處理申請",
+    "openReports": "未處理舉報",
+    "openAppeals": "未處理上訴",
+    "applicationsProcessed30d": "已處理申請（30日）",
+    "reportsResolved30d": "已解決舉報（30日）",
+    "avgResolutionTime": "平均處理時間",
+    "activeStaff": "活躍職員",
+    "statusBreakdown": "申請狀態分佈",
+    "last30Days": "最近30日"
+  },
+  "dashboardShowcase": {
+    "eyebrow": "控制台",
+    "title": "職員實際睇到嘅畫面",
+    "description": "為工作流程每一部分提供統一、一致嘅介面。下面嘅「申請」分頁係即時可操作嘅 —— 撳一個申請人、認領個案，試下批准或拒絕。",
+    "tabsAria": "控制台分頁",
+    "applications": "申請",
+    "reports": "舉報",
+    "appeals": "上訴",
+    "staff": "職員",
+    "analytics": "數據分析",
+    "activity": "活動"
+  },
+  "sandbox": {
+    "clickHint": "撳一個申請人可以打開佢嘅個案。",
+    "resetDemo": "重設試玩",
+    "demoReset": "試玩已重設",
+    "backToList": "返回列表",
+    "claimedByLabel": "認領人：",
+    "unclaimed": "未認領",
+    "claim": "認領",
+    "unclaim": "取消認領",
+    "claimed": "已認領",
+    "youDemo": "你（試玩）",
+    "approve": "批准",
+    "deny": "拒絕",
+    "requestInfo": "要求補充資料",
+    "applicationAccepted": "申請已批准",
+    "applicationRejected": "申請已拒絕",
+    "markedNeedsInfo": "已標記為需要補充資料",
+    "applicant": "申請人",
+    "status": "狀態",
+    "claimedBy": "認領人",
+    "submitted": "提交時間",
+    "age": "年齡",
+    "timezone": "時區",
+    "weeklyHours": "每週時數",
+    "previousExperience": "過往經驗"
+  },
+  "mockups": {
+    "unassigned": "未指派",
+    "priorityHigh": "高優先",
+    "priorityMedium": "中優先",
+    "priorityLow": "低優先",
+    "reportedPrefix": "被舉報：",
+    "appellant": "上訴人",
+    "originalBanReason": "原本封禁原因",
+    "reviewer": "審核人",
+    "claimedCount": "已認領",
+    "resolved7d": "已解決（7日）",
+    "lastActive": "最後活躍"
+  },
+  "status": {
+    "pending": "待處理",
+    "reviewing": "審核中",
+    "needs_info": "需要補充資料",
+    "accepted": "已接納",
+    "approved": "已批准",
+    "resolved": "已解決",
+    "rejected": "已拒絕",
+    "denied": "已駁回",
+    "dismissed": "已駁回"
+  },
+  "customization": {
+    "eyebrow": "自訂設定",
+    "title": "為適配你嘅社群而設，唔係反過嚟",
+    "description": "根據你社群嘅需要提供自訂選項 —— 呢度展示嘅自訂功能唔係全部預設具備，但都可以為你嘅設定開發出嚟。",
+    "options": [
+      { "title": "自訂品牌", "description": "喺成個控制台展示你社群嘅名稱、顏色同標誌。" },
+      { "title": "自訂申請問題", "description": "問啲對你社群職員角色真正重要嘅問題。" },
+      { "title": "自訂工作流程", "description": "配合團隊已經喺用緊嘅審核流程。" },
+      { "title": "自訂職員角色同權限", "description": "控制邊個可以審核、決定，或者淨係查看。" },
+      { "title": "自訂頁面", "description": "加入專為你社群需要而設嘅頁面。" },
+      { "title": "自訂整合", "description": "連接團隊已經依賴緊嘅工具。" }
+    ]
+  },
+  "discordIntegration": {
+    "eyebrow": "專為 Discord 社群而設",
+    "title": "設計嚟同你嘅 Discord 伺服器並行運作",
+    "description": "控制台喺網頁上獨立於 Discord 運作，專為管理 Discord 社群嘅團隊而設計。",
+    "steps": [
+      { "title": "連接你嘅 Discord 伺服器", "description": "連結你嘅社群，等控制台知道邊個係邊個。" },
+      { "title": "設定你嘅社群", "description": "設置申請問題、職員角色同工作流程。" },
+      { "title": "職員登入控制台", "description": "你嘅團隊登入嚟審核、決定同追蹤一切。" },
+      { "title": "管理申請、舉報同上訴", "description": "由呢刻開始，一切都經過統一嘅流程處理。" }
+    ],
+    "disclaimer": "呢個宣傳頁面淨係作為產品展示，本身並唔會連接 Discord。與 Discord Inc. 冇任何聯繫、認可或贊助關係。"
+  },
+  "pricing": {
+    "eyebrow": "收費",
+    "title": "簡單方案，按社群個別設置",
+    "note": "現時價格僅供參考 —— 每個方案都係個別設置。呢個網站唔會處理任何付款。",
+    "mostPopular": "最受歡迎",
+    "cta": "申請試玩",
+    "tiers": [
+      {
+        "name": "社群版",
+        "blurb": "適合啱啱開始組織嘅細型社群。",
+        "features": ["申請", "舉報", "上訴", "職員控制台", "Discord 整合", "基本數據分析"]
+      },
+      {
+        "name": "專業版",
+        "blurb": "適合有活躍職員團隊嘅大型社群。",
+        "features": ["包含社群版所有功能", "進階數據分析", "自訂品牌", "額外設定", "更進階工作流程"]
+      },
+      {
+        "name": "客製版",
+        "blurb": "適合有特定需要嘅社群。",
+        "features": ["自訂工作流程", "自訂頁面", "自訂品牌", "自訂整合", "客製開發"]
+      }
+    ]
+  },
+  "ai": {
+    "badge": "非必要",
+    "title": "按你需要使用嘅 AI 輔助功能",
+    "description": "核心產品係由你嘅職員操作嘅控制台同審核流程。部分社群仲會加入非必要嘅 AI 輔助功能 —— 例如為申請生成文字摘要，幫審核人員睇得更快。AI 永遠唔會作出最終決定，唔會自動封禁任何人，亦唔係每個方案都預設包含。每個決定嘅責任仍然由你嘅職員承擔。"
+  },
+  "finalCta": {
+    "title": "準備好簡化你嘅社群管理未？",
+    "description": "睇下控制台可以點樣配合你社群嘅管理流程。",
+    "cta": "申請試玩"
+  },
+  "faq": {
+    "eyebrow": "常見問題",
+    "title": "常見問題",
+    "items": [
+      {
+        "question": "呢個係咩平台？",
+        "answer": "GuildDesk 係一個網頁控制台，幫 Discord 社群職員喺一個有系統嘅地方集中管理管理員申請、會員舉報、封禁上訴同職員活動，而唔係分散喺各個 Discord 頻道同私訊。"
+      },
+      {
+        "question": "邊啲人啱用？",
+        "answer": "任何有職員團隊嘅 Discord 社群都啱 —— 角色扮演伺服器、遊戲社群、創作者社群等等。設計上夠通用，可以配合唔同類型嘅社群，唔會綁死於某個特定遊戲或伺服器。"
+      },
+      {
+        "question": "可唔可以同 Discord 一齊用？",
+        "answer": "可以。設計係同你嘅 Discord 伺服器並行運作：會員透過網頁控制台互動，職員喺嗰度審核同管理一切。呢個宣傳網站本身唔會連接 Discord —— 佢只係產品嘅預覽。"
+      },
+      {
+        "question": "可唔可以自訂控制台？",
+        "answer": "可以根據你社群嘅需要提供自訂選項 —— 例如品牌、申請問題、工作流程同職員角色。唔係所有自訂功能都預設有；我哋會開發你社群實際需要嘅功能。"
+      },
+      {
+        "question": "可唔可以用喺我嘅遊戲社群？",
+        "answer": "可以。雖然呢個概念最初源自角色扮演伺服器嘅管理員申請流程，但底層工作流程 —— 申請、舉報、上訴、職員問責 —— 都同樣適用於 Roblox、FiveM、Minecraft 同其他遊戲或創作者社群。"
+      },
+      {
+        "question": "可唔可以要求客製功能？",
+        "answer": "可以 —— 話俾我哋知你社群需要咩，我哋會話你知邊啲可行。"
+      },
+      {
+        "question": "使唔使安裝任何嘢？",
+        "answer": "唔使。控制台喺瀏覽器度運作，你嘅伺服器或會員嘅裝置都唔使安裝任何嘢。"
+      },
+      {
+        "question": "係咪一定要用 AI？",
+        "answer": "唔使。核心產品係由真人職員操作嘅控制台同管理流程。AI 輔助功能係非必要嘅額外功能 —— 唔係每個方案都包含，亦唔會取代職員作出實際決定。"
+      },
+      {
+        "question": "托管係點運作㗎？",
+        "answer": "控制台由我哋幫你托管 —— 你嗰邊唔使管理伺服器。詳情會喺設置過程中按社群個別商討。"
+      }
+    ]
+  },
+  "footer": {
+    "notAffiliated": "與 Discord Inc. 冇任何聯繫、認可或贊助關係。",
+    "previewNote": "呢個係預覽網站 —— 展示嘅控制台畫面全部係用示範數據製作嘅示意模型。"
+  },
+  "demoDataNote": "展示嘅所有姓名、用戶同統計數據都係示範數據，僅供參考。"
+}

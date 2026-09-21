@@ -1,7 +1,12 @@
 import { ImageResponse } from "next/og";
 import { siteConfig } from "@/lib/config";
 
-export const alt = `${siteConfig.productName} — ${siteConfig.tagline}`;
+// This static OG image is locale-agnostic (one image for all languages),
+// so its copy is hardcoded English rather than pulled from messages/*.json.
+const TAGLINE = "Discord Community Management, Simplified.";
+const SUB_TAGLINE = "Manage applications, reports, appeals, and staff activity from one powerful dashboard.";
+
+export const alt = `${siteConfig.productName} — ${TAGLINE}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -45,7 +50,7 @@ export default async function OgImage() {
             lineHeight: 1.15,
           }}
         >
-          {siteConfig.tagline}
+          {TAGLINE}
         </div>
         <div
           style={{
@@ -57,7 +62,7 @@ export default async function OgImage() {
             maxWidth: 900,
           }}
         >
-          {siteConfig.subTagline}
+          {SUB_TAGLINE}
         </div>
       </div>
     ),
